@@ -1,0 +1,2197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/beantowel/FDU/miscellaneous/SimCap/PCB_Cad/simCap/simCapSE.sch</source>
+    <date>2019年06月14日 星期五 19时30分03秒</date>
+    <tool>Eeschema 5.1.2-f72e74a~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>simCapSE.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D77">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709F12</tstamp>
+    </comp>
+    <comp ref="D78">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709F0C</tstamp>
+    </comp>
+    <comp ref="D79">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709F06</tstamp>
+    </comp>
+    <comp ref="D80">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709F00</tstamp>
+    </comp>
+    <comp ref="D73">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709EEC</tstamp>
+    </comp>
+    <comp ref="D74">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709EE6</tstamp>
+    </comp>
+    <comp ref="D75">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709EE0</tstamp>
+    </comp>
+    <comp ref="D76">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E709EDA</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOP-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D82D9EB</tstamp>
+    </comp>
+    <comp ref="D69">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D083FFB</tstamp>
+    </comp>
+    <comp ref="D70">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D083FF5</tstamp>
+    </comp>
+    <comp ref="D71">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D083FEF</tstamp>
+    </comp>
+    <comp ref="D72">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D083FE9</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEF5AE4</tstamp>
+    </comp>
+    <comp ref="D66">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5B89E</tstamp>
+    </comp>
+    <comp ref="D67">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5D5C1</tstamp>
+    </comp>
+    <comp ref="D68">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5D5D5</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>Package_SO:SOP-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDF1D99</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6A2084</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7015C5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D707F2E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D70AC1F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D70AC25</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D70F4E6</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D70F4EC</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D70F4F2</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D70F4F8</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180B7</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180BD</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180C3</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180C9</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180CF</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180D5</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180DB</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7180E1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8CC425</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8CFE7A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9BCF96</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9BCFA2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9C22B0</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9C22BC</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9C22C5</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9C22D1</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB490</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB49C</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB4A5</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB4B1</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB4BA</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB4C6</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB4CF</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CB4DB</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E89C</tstamp>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8A8</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8B1</tstamp>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8BD</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8C6</tstamp>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8D2</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8DB</tstamp>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8E7</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8F0</tstamp>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E8FC</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E905</tstamp>
+    </comp>
+    <comp ref="H14">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E911</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E91A</tstamp>
+    </comp>
+    <comp ref="H15">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E926</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E92F</tstamp>
+    </comp>
+    <comp ref="H16">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA1E93B</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA355F0</tstamp>
+    </comp>
+    <comp ref="H17">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA355FC</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35605</tstamp>
+    </comp>
+    <comp ref="H18">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35611</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3561A</tstamp>
+    </comp>
+    <comp ref="H19">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35626</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3562F</tstamp>
+    </comp>
+    <comp ref="H20">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3563B</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35644</tstamp>
+    </comp>
+    <comp ref="H21">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35650</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35659</tstamp>
+    </comp>
+    <comp ref="H22">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35665</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3566E</tstamp>
+    </comp>
+    <comp ref="H23">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3567A</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35683</tstamp>
+    </comp>
+    <comp ref="H24">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3568F</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35698</tstamp>
+    </comp>
+    <comp ref="H25">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356A4</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356AD</tstamp>
+    </comp>
+    <comp ref="H26">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356B9</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356C2</tstamp>
+    </comp>
+    <comp ref="H27">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356CE</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356D7</tstamp>
+    </comp>
+    <comp ref="H28">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356E3</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356EC</tstamp>
+    </comp>
+    <comp ref="H29">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA356F8</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35701</tstamp>
+    </comp>
+    <comp ref="H30">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3570D</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35716</tstamp>
+    </comp>
+    <comp ref="H31">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35722</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA3572B</tstamp>
+    </comp>
+    <comp ref="H32">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA35737</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4A2</tstamp>
+    </comp>
+    <comp ref="H33">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4AE</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4B7</tstamp>
+    </comp>
+    <comp ref="H34">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4C3</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4CC</tstamp>
+    </comp>
+    <comp ref="H35">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4D8</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4E1</tstamp>
+    </comp>
+    <comp ref="H36">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4ED</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A4F6</tstamp>
+    </comp>
+    <comp ref="H37">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A502</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A50B</tstamp>
+    </comp>
+    <comp ref="H38">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A517</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A520</tstamp>
+    </comp>
+    <comp ref="H39">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A52C</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A535</tstamp>
+    </comp>
+    <comp ref="H40">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A541</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A54A</tstamp>
+    </comp>
+    <comp ref="H41">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A556</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A55F</tstamp>
+    </comp>
+    <comp ref="H42">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A56B</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A574</tstamp>
+    </comp>
+    <comp ref="H43">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A580</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A589</tstamp>
+    </comp>
+    <comp ref="H44">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A595</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A59E</tstamp>
+    </comp>
+    <comp ref="H45">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5AA</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5B3</tstamp>
+    </comp>
+    <comp ref="H46">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5BF</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5C8</tstamp>
+    </comp>
+    <comp ref="H47">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5D4</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5DD</tstamp>
+    </comp>
+    <comp ref="H48">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5E9</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5F2</tstamp>
+    </comp>
+    <comp ref="H49">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A5FE</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A607</tstamp>
+    </comp>
+    <comp ref="H50">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A613</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A61C</tstamp>
+    </comp>
+    <comp ref="H51">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A628</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A631</tstamp>
+    </comp>
+    <comp ref="H52">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A63D</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A646</tstamp>
+    </comp>
+    <comp ref="H53">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A652</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A65B</tstamp>
+    </comp>
+    <comp ref="H54">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A667</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A670</tstamp>
+    </comp>
+    <comp ref="H55">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A67C</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A685</tstamp>
+    </comp>
+    <comp ref="H56">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A691</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A69A</tstamp>
+    </comp>
+    <comp ref="H57">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6A6</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6AF</tstamp>
+    </comp>
+    <comp ref="H58">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6BB</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6C4</tstamp>
+    </comp>
+    <comp ref="H59">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6D0</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6D9</tstamp>
+    </comp>
+    <comp ref="H60">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6E5</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6EE</tstamp>
+    </comp>
+    <comp ref="H61">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A6FA</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A703</tstamp>
+    </comp>
+    <comp ref="H62">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A70F</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A718</tstamp>
+    </comp>
+    <comp ref="H63">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A724</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A72D</tstamp>
+    </comp>
+    <comp ref="H64">
+      <value>MountingHole_Pad</value>
+      <footprint>myfootprint:TCH_PAD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA5A739</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBAEA4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBC523A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBF153F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBF1545</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC216BE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC216C4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC216CA</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC216D0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <aliases>
+        <alias>74LS595</alias>
+        <alias>74HCT595</alias>
+      </aliases>
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV99">
+      <description>BAV99 High-speed switching diodes</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV99</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D55-Pad3)">
+      <node ref="D55" pin="3"/>
+      <node ref="H55" pin="1"/>
+      <node ref="D55" pin="3"/>
+    </net>
+    <net code="2" name="Net-(D56-Pad3)">
+      <node ref="D56" pin="3"/>
+      <node ref="H56" pin="1"/>
+      <node ref="D56" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D54-Pad3)">
+      <node ref="D54" pin="3"/>
+      <node ref="H54" pin="1"/>
+      <node ref="D54" pin="3"/>
+    </net>
+    <net code="4" name="Net-(D58-Pad3)">
+      <node ref="D58" pin="3"/>
+      <node ref="D58" pin="3"/>
+      <node ref="H58" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D57-Pad3)">
+      <node ref="H57" pin="1"/>
+      <node ref="D57" pin="3"/>
+      <node ref="D57" pin="3"/>
+    </net>
+    <net code="6" name="/Y0">
+      <node ref="D73" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D51-Pad3)">
+      <node ref="D51" pin="3"/>
+      <node ref="D51" pin="3"/>
+      <node ref="H51" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D50-Pad3)">
+      <node ref="D50" pin="3"/>
+      <node ref="H50" pin="1"/>
+      <node ref="D50" pin="3"/>
+    </net>
+    <net code="9" name="Net-(D52-Pad3)">
+      <node ref="D52" pin="3"/>
+      <node ref="D52" pin="3"/>
+      <node ref="H52" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D53-Pad3)">
+      <node ref="D53" pin="3"/>
+      <node ref="D53" pin="3"/>
+      <node ref="H53" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D64-Pad3)">
+      <node ref="D64" pin="3"/>
+      <node ref="D64" pin="3"/>
+      <node ref="H64" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D63-Pad3)">
+      <node ref="D63" pin="3"/>
+      <node ref="D63" pin="3"/>
+      <node ref="H63" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D62-Pad3)">
+      <node ref="D62" pin="3"/>
+      <node ref="H62" pin="1"/>
+      <node ref="D62" pin="3"/>
+    </net>
+    <net code="14" name="Net-(D59-Pad3)">
+      <node ref="D59" pin="3"/>
+      <node ref="D59" pin="3"/>
+      <node ref="H59" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D60-Pad3)">
+      <node ref="D60" pin="3"/>
+      <node ref="D60" pin="3"/>
+      <node ref="H60" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D61-Pad3)">
+      <node ref="D61" pin="3"/>
+      <node ref="D61" pin="3"/>
+      <node ref="H61" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D39-Pad3)">
+      <node ref="H39" pin="1"/>
+      <node ref="D39" pin="3"/>
+      <node ref="D39" pin="3"/>
+    </net>
+    <net code="18" name="Net-(D38-Pad3)">
+      <node ref="D38" pin="3"/>
+      <node ref="H38" pin="1"/>
+      <node ref="D38" pin="3"/>
+    </net>
+    <net code="19" name="Net-(D37-Pad3)">
+      <node ref="D37" pin="3"/>
+      <node ref="D37" pin="3"/>
+      <node ref="H37" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D40-Pad3)">
+      <node ref="D40" pin="3"/>
+      <node ref="D40" pin="3"/>
+      <node ref="H40" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D41-Pad3)">
+      <node ref="H41" pin="1"/>
+      <node ref="D41" pin="3"/>
+      <node ref="D41" pin="3"/>
+    </net>
+    <net code="22" name="Net-(D34-Pad3)">
+      <node ref="D34" pin="3"/>
+      <node ref="H34" pin="1"/>
+      <node ref="D34" pin="3"/>
+    </net>
+    <net code="23" name="Net-(D35-Pad3)">
+      <node ref="D35" pin="3"/>
+      <node ref="D35" pin="3"/>
+      <node ref="H35" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D33-Pad3)">
+      <node ref="D33" pin="3"/>
+      <node ref="H33" pin="1"/>
+      <node ref="D33" pin="3"/>
+    </net>
+    <net code="25" name="Net-(D33-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D39" pin="2"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D36-Pad3)">
+      <node ref="H36" pin="1"/>
+      <node ref="D36" pin="3"/>
+      <node ref="D36" pin="3"/>
+    </net>
+    <net code="27" name="Net-(D47-Pad3)">
+      <node ref="H47" pin="1"/>
+      <node ref="D47" pin="3"/>
+      <node ref="D47" pin="3"/>
+    </net>
+    <net code="28" name="Net-(D46-Pad3)">
+      <node ref="H46" pin="1"/>
+      <node ref="D46" pin="3"/>
+      <node ref="D46" pin="3"/>
+    </net>
+    <net code="29" name="Net-(D48-Pad3)">
+      <node ref="D48" pin="3"/>
+      <node ref="D48" pin="3"/>
+      <node ref="H48" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D49-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="D56" pin="2"/>
+      <node ref="D52" pin="2"/>
+      <node ref="D49" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="D51" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D54" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D49-Pad3)">
+      <node ref="H49" pin="1"/>
+      <node ref="D49" pin="3"/>
+      <node ref="D49" pin="3"/>
+    </net>
+    <net code="32" name="Net-(D42-Pad3)">
+      <node ref="D42" pin="3"/>
+      <node ref="H42" pin="1"/>
+      <node ref="D42" pin="3"/>
+    </net>
+    <net code="33" name="Net-(D43-Pad3)">
+      <node ref="H43" pin="1"/>
+      <node ref="D43" pin="3"/>
+      <node ref="D43" pin="3"/>
+    </net>
+    <net code="34" name="Net-(D41-Pad2)">
+      <node ref="D45" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D47" pin="2"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D48" pin="2"/>
+      <node ref="D43" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D44" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D44-Pad3)">
+      <node ref="H44" pin="1"/>
+      <node ref="D44" pin="3"/>
+      <node ref="D44" pin="3"/>
+    </net>
+    <net code="36" name="Net-(D45-Pad3)">
+      <node ref="D45" pin="3"/>
+      <node ref="H45" pin="1"/>
+      <node ref="D45" pin="3"/>
+    </net>
+    <net code="37" name="/X7">
+      <node ref="D72" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D57-Pad2)">
+      <node ref="D61" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="D59" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="D57" pin="2"/>
+      <node ref="D64" pin="2"/>
+      <node ref="D58" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="39" name="/X6">
+      <node ref="U1" pin="6"/>
+      <node ref="D71" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="40" name="/X5">
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="D70" pin="1"/>
+    </net>
+    <net code="41" name="/X4">
+      <node ref="D69" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="42" name="/X3">
+      <node ref="R4" pin="2"/>
+      <node ref="D68" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="43" name="/X2">
+      <node ref="D67" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="44" name="/X1">
+      <node ref="D66" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="45" name="/X0">
+      <node ref="D65" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="46" name="/Y1">
+      <node ref="D18" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D74" pin="2"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="47" name="/Y3">
+      <node ref="D76" pin="2"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="48" name="/Y4">
+      <node ref="D13" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D77" pin="2"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D45" pin="1"/>
+    </net>
+    <net code="49" name="/Y5">
+      <node ref="D46" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D78" pin="2"/>
+      <node ref="D54" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="50" name="/Y2">
+      <node ref="D27" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D75" pin="2"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="51" name="/Y6">
+      <node ref="D7" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D79" pin="2"/>
+      <node ref="D31" pin="1"/>
+    </net>
+    <net code="52" name="/Y7">
+      <node ref="D32" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D80" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D48" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="54" name="GND">
+      <node ref="R24" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D65-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="D65" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D72-Pad2)">
+      <node ref="D72" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D66-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D66" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D67-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="D67" pin="2"/>
+    </net>
+    <net code="59" name="/_SRCLR">
+      <node ref="U2" pin="10"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="60" name="/SRCLK">
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="61" name="/RCLK">
+      <node ref="U1" pin="12"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="62" name="/_OE">
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="63" name="Net-(D80-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="D80" pin="1"/>
+    </net>
+    <net code="64" name="Net-(D79-Pad1)">
+      <node ref="D79" pin="1"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D78-Pad1)">
+      <node ref="D78" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D77-Pad1)">
+      <node ref="D77" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D76-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="D76" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D75-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="D75" pin="1"/>
+    </net>
+    <net code="69" name="Net-(D74-Pad1)">
+      <node ref="R18" pin="2"/>
+      <node ref="D74" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D73-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="D73" pin="1"/>
+    </net>
+    <net code="71" name="VCC">
+      <node ref="J1" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D71-Pad2)">
+      <node ref="D71" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D70-Pad2)">
+      <node ref="D70" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D69-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="D69" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D68-Pad2)">
+      <node ref="D68" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="77" name="/SER">
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="78" name="Net-(D22-Pad3)">
+      <node ref="D22" pin="3"/>
+      <node ref="D22" pin="3"/>
+      <node ref="H22" pin="1"/>
+    </net>
+    <net code="79" name="Net-(D21-Pad3)">
+      <node ref="H21" pin="1"/>
+      <node ref="D21" pin="3"/>
+      <node ref="D21" pin="3"/>
+    </net>
+    <net code="80" name="Net-(D24-Pad3)">
+      <node ref="D24" pin="3"/>
+      <node ref="D24" pin="3"/>
+      <node ref="H24" pin="1"/>
+    </net>
+    <net code="81" name="Net-(D23-Pad3)">
+      <node ref="D23" pin="3"/>
+      <node ref="D23" pin="3"/>
+      <node ref="H23" pin="1"/>
+    </net>
+    <net code="82" name="Net-(D17-Pad3)">
+      <node ref="D17" pin="3"/>
+      <node ref="D17" pin="3"/>
+      <node ref="H17" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D18-Pad3)">
+      <node ref="D18" pin="3"/>
+      <node ref="H18" pin="1"/>
+      <node ref="D18" pin="3"/>
+    </net>
+    <net code="84" name="Net-(D25-Pad3)">
+      <node ref="D25" pin="3"/>
+      <node ref="D25" pin="3"/>
+      <node ref="H25" pin="1"/>
+    </net>
+    <net code="85" name="Net-(D17-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D19-Pad3)">
+      <node ref="D19" pin="3"/>
+      <node ref="H19" pin="1"/>
+      <node ref="D19" pin="3"/>
+    </net>
+    <net code="87" name="Net-(D20-Pad3)">
+      <node ref="H20" pin="1"/>
+      <node ref="D20" pin="3"/>
+      <node ref="D20" pin="3"/>
+    </net>
+    <net code="88" name="Net-(D30-Pad3)">
+      <node ref="D30" pin="3"/>
+      <node ref="H30" pin="1"/>
+      <node ref="D30" pin="3"/>
+    </net>
+    <net code="89" name="Net-(D29-Pad3)">
+      <node ref="D29" pin="3"/>
+      <node ref="H29" pin="1"/>
+      <node ref="D29" pin="3"/>
+    </net>
+    <net code="90" name="Net-(D31-Pad3)">
+      <node ref="H31" pin="1"/>
+      <node ref="D31" pin="3"/>
+      <node ref="D31" pin="3"/>
+    </net>
+    <net code="91" name="Net-(D32-Pad3)">
+      <node ref="D32" pin="3"/>
+      <node ref="D32" pin="3"/>
+      <node ref="H32" pin="1"/>
+    </net>
+    <net code="92" name="Net-(D26-Pad3)">
+      <node ref="D26" pin="3"/>
+      <node ref="H26" pin="1"/>
+      <node ref="D26" pin="3"/>
+    </net>
+    <net code="93" name="Net-(D27-Pad3)">
+      <node ref="D27" pin="3"/>
+      <node ref="D27" pin="3"/>
+      <node ref="H27" pin="1"/>
+    </net>
+    <net code="94" name="Net-(D25-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D28-Pad3)">
+      <node ref="D28" pin="3"/>
+      <node ref="D28" pin="3"/>
+      <node ref="H28" pin="1"/>
+    </net>
+    <net code="96" name="Net-(D6-Pad3)">
+      <node ref="D6" pin="3"/>
+      <node ref="D6" pin="3"/>
+      <node ref="H6" pin="1"/>
+    </net>
+    <net code="97" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3"/>
+      <node ref="D5" pin="3"/>
+      <node ref="H5" pin="1"/>
+    </net>
+    <net code="98" name="Net-(D4-Pad3)">
+      <node ref="H4" pin="1"/>
+      <node ref="D4" pin="3"/>
+      <node ref="D4" pin="3"/>
+    </net>
+    <net code="99" name="Net-(D7-Pad3)">
+      <node ref="H7" pin="1"/>
+      <node ref="D7" pin="3"/>
+      <node ref="D7" pin="3"/>
+    </net>
+    <net code="100" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="101" name="Net-(D8-Pad3)">
+      <node ref="D8" pin="3"/>
+      <node ref="D8" pin="3"/>
+      <node ref="H8" pin="1"/>
+    </net>
+    <net code="102" name="Net-(D2-Pad3)">
+      <node ref="D2" pin="3"/>
+      <node ref="D2" pin="3"/>
+      <node ref="H2" pin="1"/>
+    </net>
+    <net code="103" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="104" name="Net-(D3-Pad3)">
+      <node ref="D3" pin="3"/>
+      <node ref="D3" pin="3"/>
+      <node ref="H3" pin="1"/>
+    </net>
+    <net code="105" name="Net-(D13-Pad3)">
+      <node ref="H13" pin="1"/>
+      <node ref="D13" pin="3"/>
+      <node ref="D13" pin="3"/>
+    </net>
+    <net code="106" name="Net-(D14-Pad3)">
+      <node ref="H14" pin="1"/>
+      <node ref="D14" pin="3"/>
+      <node ref="D14" pin="3"/>
+    </net>
+    <net code="107" name="Net-(D12-Pad3)">
+      <node ref="D12" pin="3"/>
+      <node ref="D12" pin="3"/>
+      <node ref="H12" pin="1"/>
+    </net>
+    <net code="108" name="Net-(D15-Pad3)">
+      <node ref="H15" pin="1"/>
+      <node ref="D15" pin="3"/>
+      <node ref="D15" pin="3"/>
+    </net>
+    <net code="109" name="Net-(D16-Pad3)">
+      <node ref="H16" pin="1"/>
+      <node ref="D16" pin="3"/>
+      <node ref="D16" pin="3"/>
+    </net>
+    <net code="110" name="Net-(D10-Pad3)">
+      <node ref="D10" pin="3"/>
+      <node ref="D10" pin="3"/>
+      <node ref="H10" pin="1"/>
+    </net>
+    <net code="111" name="Net-(D9-Pad3)">
+      <node ref="D9" pin="3"/>
+      <node ref="H9" pin="1"/>
+      <node ref="D9" pin="3"/>
+    </net>
+    <net code="112" name="Net-(D10-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D11-Pad3)">
+      <node ref="D11" pin="3"/>
+      <node ref="D11" pin="3"/>
+      <node ref="H11" pin="1"/>
+    </net>
+  </nets>
+</export>

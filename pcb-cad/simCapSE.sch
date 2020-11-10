@@ -1,0 +1,3755 @@
+EESchema Schematic File Version 4
+LIBS:simCapSE-cache
+EELAYER 29 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 25950 17450 0    50   ~ 0
+X7
+Text Label 25950 17100 0    50   ~ 0
+X6
+Text Label 25950 16750 0    50   ~ 0
+X5
+Text Label 25950 16400 0    50   ~ 0
+X4
+Text Label 25950 16050 0    50   ~ 0
+X3
+Wire Wire Line
+	22000 18200 22000 18050
+Wire Wire Line
+	21650 18050 21650 18200
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 63E743F3
+P 22000 18200
+F 0 "#FLG02" H 22000 18275 50  0001 C CNN
+F 1 "PWR_FLAG" H 22000 18373 50  0000 C CNN
+F 2 "" H 22000 18200 50  0001 C CNN
+F 3 "~" H 22000 18200 50  0001 C CNN
+	1    22000 18200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 63E737B1
+P 21650 18200
+F 0 "#FLG01" H 21650 18275 50  0001 C CNN
+F 1 "PWR_FLAG" H 21650 18373 50  0000 C CNN
+F 2 "" H 21650 18200 50  0001 C CNN
+F 3 "~" H 21650 18200 50  0001 C CNN
+	1    21650 18200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 63E72E29
+P 22000 18050
+F 0 "#PWR04" H 22000 17800 50  0001 C CNN
+F 1 "GND" H 22005 17877 50  0000 C CNN
+F 2 "" H 22000 18050 50  0001 C CNN
+F 3 "" H 22000 18050 50  0001 C CNN
+	1    22000 18050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 63E726D8
+P 21650 18050
+F 0 "#PWR03" H 21650 17900 50  0001 C CNN
+F 1 "VCC" H 21667 18223 50  0000 C CNN
+F 2 "" H 21650 18050 50  0001 C CNN
+F 3 "" H 21650 18050 50  0001 C CNN
+	1    21650 18050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 63E6E992
+P 23950 19000
+F 0 "#PWR08" H 23950 18750 50  0001 C CNN
+F 1 "GND" H 23955 18827 50  0000 C CNN
+F 2 "" H 23950 19000 50  0001 C CNN
+F 3 "" H 23950 19000 50  0001 C CNN
+	1    23950 19000
+	1    0    0    -1  
+$EndComp
+Text Label 25950 20700 0    50   ~ 0
+Y7
+Text Label 25950 20350 0    50   ~ 0
+Y6
+Text Label 25950 20000 0    50   ~ 0
+Y5
+Text Label 25950 19650 0    50   ~ 0
+Y4
+Text Label 25950 19300 0    50   ~ 0
+Y3
+Text Label 25950 18950 0    50   ~ 0
+Y2
+Text Label 25950 18600 0    50   ~ 0
+Y1
+Text Label 25950 18250 0    50   ~ 0
+Y0
+$Comp
+L power:GND #PWR010
+U 1 1 5F3FF7AA
+P 27350 19100
+F 0 "#PWR010" H 27350 18850 50  0001 C CNN
+F 1 "GND" H 27355 18927 50  0000 C CNN
+F 2 "" H 27350 19100 50  0001 C CNN
+F 3 "" H 27350 19100 50  0001 C CNN
+	1    27350 19100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	25950 20700 26350 20700
+Wire Wire Line
+	25950 20350 26350 20350
+Wire Wire Line
+	25950 20000 26350 20000
+Wire Wire Line
+	25950 19650 26350 19650
+Wire Wire Line
+	25950 19300 26350 19300
+Wire Wire Line
+	25950 18950 26350 18950
+Wire Wire Line
+	25950 18600 26350 18600
+Wire Wire Line
+	25950 18250 26350 18250
+$Comp
+L Device:LED D77
+U 1 1 5E709F12
+P 26500 19650
+F 0 "D77" H 26493 19866 50  0000 C CNN
+F 1 "LED" H 26493 19775 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 19650 50  0001 C CNN
+F 3 "~" H 26500 19650 50  0001 C CNN
+	1    26500 19650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D78
+U 1 1 5E709F0C
+P 26500 20000
+F 0 "D78" H 26493 20216 50  0000 C CNN
+F 1 "LED" H 26493 20125 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 20000 50  0001 C CNN
+F 3 "~" H 26500 20000 50  0001 C CNN
+	1    26500 20000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D79
+U 1 1 5E709F06
+P 26500 20350
+F 0 "D79" H 26493 20566 50  0000 C CNN
+F 1 "LED" H 26493 20475 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 20350 50  0001 C CNN
+F 3 "~" H 26500 20350 50  0001 C CNN
+	1    26500 20350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D80
+U 1 1 5E709F00
+P 26500 20700
+F 0 "D80" H 26493 20916 50  0000 C CNN
+F 1 "LED" H 26493 20825 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 20700 50  0001 C CNN
+F 3 "~" H 26500 20700 50  0001 C CNN
+	1    26500 20700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D73
+U 1 1 5E709EEC
+P 26500 18250
+F 0 "D73" H 26493 18466 50  0000 C CNN
+F 1 "LED" H 26493 18375 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 18250 50  0001 C CNN
+F 3 "~" H 26500 18250 50  0001 C CNN
+	1    26500 18250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D74
+U 1 1 5E709EE6
+P 26500 18600
+F 0 "D74" H 26493 18816 50  0000 C CNN
+F 1 "LED" H 26493 18725 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 18600 50  0001 C CNN
+F 3 "~" H 26500 18600 50  0001 C CNN
+	1    26500 18600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D75
+U 1 1 5E709EE0
+P 26500 18950
+F 0 "D75" H 26493 19166 50  0000 C CNN
+F 1 "LED" H 26493 19075 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 18950 50  0001 C CNN
+F 3 "~" H 26500 18950 50  0001 C CNN
+	1    26500 18950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D76
+U 1 1 5E709EDA
+P 26500 19300
+F 0 "D76" H 26493 19516 50  0000 C CNN
+F 1 "LED" H 26493 19425 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 19300 50  0001 C CNN
+F 3 "~" H 26500 19300 50  0001 C CNN
+	1    26500 19300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 5DFE0915
+P 23950 17700
+F 0 "#PWR07" H 23950 17550 50  0001 C CNN
+F 1 "VCC" V 23967 17828 50  0000 L CNN
+F 2 "" H 23950 17700 50  0001 C CNN
+F 3 "" H 23950 17700 50  0001 C CNN
+	1    23950 17700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5DFE003D
+P 23950 15750
+F 0 "#PWR05" H 23950 15600 50  0001 C CNN
+F 1 "VCC" V 23967 15878 50  0000 L CNN
+F 2 "" H 23950 15750 50  0001 C CNN
+F 3 "" H 23950 15750 50  0001 C CNN
+	1    23950 15750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5DFDA1D8
+P 23950 17050
+F 0 "#PWR06" H 23950 16800 50  0001 C CNN
+F 1 "GND" H 23955 16877 50  0000 C CNN
+F 2 "" H 23950 17050 50  0001 C CNN
+F 3 "" H 23950 17050 50  0001 C CNN
+	1    23950 17050
+	1    0    0    -1  
+$EndComp
+Text Label 24550 18600 0    50   ~ 0
+Y7
+Text Label 24550 18500 0    50   ~ 0
+Y6
+Text Label 24550 18400 0    50   ~ 0
+Y5
+Text Label 24550 18300 0    50   ~ 0
+Y4
+Text Label 24550 18200 0    50   ~ 0
+Y3
+Text Label 24550 18100 0    50   ~ 0
+Y2
+Text Label 24550 18000 0    50   ~ 0
+Y1
+Text Label 24550 17900 0    50   ~ 0
+Y0
+Text Label 24550 16650 0    50   ~ 0
+X7
+Text Label 24550 16550 0    50   ~ 0
+X6
+Text Label 24550 16450 0    50   ~ 0
+X5
+Text Label 24550 16350 0    50   ~ 0
+X4
+Text Label 24550 16250 0    50   ~ 0
+X3
+Text Label 24550 16150 0    50   ~ 0
+X2
+Text Label 24550 16050 0    50   ~ 0
+X1
+Text Label 24550 15950 0    50   ~ 0
+X0
+Wire Wire Line
+	24350 18800 24600 18800
+Wire Wire Line
+	23300 17350 23300 17900
+Wire Wire Line
+	24550 17350 23300 17350
+Wire Wire Line
+	24550 16850 24550 17350
+Wire Wire Line
+	24350 16850 24550 16850
+Wire Wire Line
+	24550 18600 24350 18600
+Wire Wire Line
+	24550 18500 24350 18500
+Wire Wire Line
+	24550 18400 24350 18400
+Wire Wire Line
+	24550 18300 24350 18300
+Wire Wire Line
+	24550 18200 24350 18200
+Wire Wire Line
+	24550 18100 24350 18100
+Wire Wire Line
+	24550 18000 24350 18000
+Wire Wire Line
+	24550 17900 24350 17900
+Wire Wire Line
+	23300 17900 23550 17900
+Wire Wire Line
+	23300 18500 23550 18500
+Wire Wire Line
+	23300 18400 23550 18400
+Wire Wire Line
+	23300 18200 23550 18200
+Wire Wire Line
+	23300 18100 23550 18100
+Text Label 23300 18100 0    50   ~ 0
+SRCLK
+Text Label 23300 18200 0    50   ~ 0
+_SRCLR
+Text Label 23300 18400 0    50   ~ 0
+RCLK
+Text Label 23300 18500 0    50   ~ 0
+_OE
+$Comp
+L 74xx:74HC595 U2
+U 1 1 5D82D9EB
+P 23950 18300
+F 0 "U2" H 23950 19081 50  0000 C CNN
+F 1 "74HC595" H 23950 18990 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 23950 18300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 23950 18300 50  0001 C CNN
+	1    23950 18300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	25950 17450 26350 17450
+Wire Wire Line
+	25950 17100 26350 17100
+Wire Wire Line
+	25950 16750 26350 16750
+Wire Wire Line
+	25950 16400 26350 16400
+Wire Wire Line
+	25950 16050 26350 16050
+Wire Wire Line
+	25950 15700 26350 15700
+Wire Wire Line
+	25950 15350 26350 15350
+Wire Wire Line
+	25950 15000 26350 15000
+Text Label 21850 15400 2    50   ~ 0
+_SRCLR
+Text Label 21850 15300 2    50   ~ 0
+SRCLK
+Text Label 21850 15200 2    50   ~ 0
+RCLK
+Text Label 21850 15100 2    50   ~ 0
+_OE
+Text Label 23300 15950 0    50   ~ 0
+SER
+Wire Wire Line
+	23300 15950 23550 15950
+Text Label 21850 15500 2    50   ~ 0
+SER
+Wire Wire Line
+	21850 15100 21950 15100
+Wire Wire Line
+	23300 16550 23550 16550
+Wire Wire Line
+	23300 16450 23550 16450
+Wire Wire Line
+	23300 16250 23550 16250
+Wire Wire Line
+	23300 16150 23550 16150
+$Comp
+L power:VCC #PWR01
+U 1 1 5D28EF38
+P 21550 14900
+F 0 "#PWR01" H 21550 14750 50  0001 C CNN
+F 1 "VCC" V 21568 15027 50  0000 L CNN
+F 2 "" H 21550 14900 50  0001 C CNN
+F 3 "" H 21550 14900 50  0001 C CNN
+	1    21550 14900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D283940
+P 21550 15000
+F 0 "#PWR02" H 21550 14750 50  0001 C CNN
+F 1 "GND" V 21555 14872 50  0000 R CNN
+F 2 "" H 21550 15000 50  0001 C CNN
+F 3 "" H 21550 15000 50  0001 C CNN
+	1    21550 15000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5D1EFC56
+P 27350 15200
+F 0 "#PWR09" H 27350 15050 50  0001 C CNN
+F 1 "VCC" H 27367 15373 50  0000 C CNN
+F 2 "" H 27350 15200 50  0001 C CNN
+F 3 "" H 27350 15200 50  0001 C CNN
+	1    27350 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D69
+U 1 1 5D083FFB
+P 26500 16400
+F 0 "D69" H 26493 16616 50  0000 C CNN
+F 1 "LED" H 26493 16525 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 16400 50  0001 C CNN
+F 3 "~" H 26500 16400 50  0001 C CNN
+	1    26500 16400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D70
+U 1 1 5D083FF5
+P 26500 16750
+F 0 "D70" H 26493 16966 50  0000 C CNN
+F 1 "LED" H 26493 16875 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 16750 50  0001 C CNN
+F 3 "~" H 26500 16750 50  0001 C CNN
+	1    26500 16750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D71
+U 1 1 5D083FEF
+P 26500 17100
+F 0 "D71" H 26493 17316 50  0000 C CNN
+F 1 "LED" H 26493 17225 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 17100 50  0001 C CNN
+F 3 "~" H 26500 17100 50  0001 C CNN
+	1    26500 17100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D72
+U 1 1 5D083FE9
+P 26500 17450
+F 0 "D72" H 26493 17666 50  0000 C CNN
+F 1 "LED" H 26493 17575 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 17450 50  0001 C CNN
+F 3 "~" H 26500 17450 50  0001 C CNN
+	1    26500 17450
+	1    0    0    -1  
+$EndComp
+Text Label 23300 16150 0    50   ~ 0
+SRCLK
+Text Label 23300 16250 0    50   ~ 0
+_SRCLR
+Text Label 23300 16450 0    50   ~ 0
+RCLK
+Text Label 23300 16550 0    50   ~ 0
+_OE
+$Comp
+L Device:LED D65
+U 1 1 5CEF5AE4
+P 26500 15000
+F 0 "D65" H 26493 15216 50  0000 C CNN
+F 1 "LED" H 26493 15125 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 15000 50  0001 C CNN
+F 3 "~" H 26500 15000 50  0001 C CNN
+	1    26500 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D66
+U 1 1 5CF5B89E
+P 26500 15350
+F 0 "D66" H 26493 15566 50  0000 C CNN
+F 1 "LED" H 26493 15475 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 15350 50  0001 C CNN
+F 3 "~" H 26500 15350 50  0001 C CNN
+	1    26500 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D67
+U 1 1 5CF5D5C1
+P 26500 15700
+F 0 "D67" H 26493 15916 50  0000 C CNN
+F 1 "LED" H 26493 15825 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 15700 50  0001 C CNN
+F 3 "~" H 26500 15700 50  0001 C CNN
+	1    26500 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D68
+U 1 1 5CF5D5D5
+P 26500 16050
+F 0 "D68" H 26493 16266 50  0000 C CNN
+F 1 "LED" H 26493 16175 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26500 16050 50  0001 C CNN
+F 3 "~" H 26500 16050 50  0001 C CNN
+	1    26500 16050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U1
+U 1 1 5CDF1D99
+P 23950 16350
+F 0 "U1" H 23950 17131 50  0000 C CNN
+F 1 "74HC595" H 23950 17040 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 23950 16350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 23950 16350 50  0001 C CNN
+	1    23950 16350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24550 15950 24350 15950
+Wire Wire Line
+	24550 16050 24350 16050
+Wire Wire Line
+	24550 16150 24350 16150
+Wire Wire Line
+	24550 16250 24350 16250
+Wire Wire Line
+	24550 16350 24350 16350
+Wire Wire Line
+	24550 16450 24350 16450
+Wire Wire Line
+	24550 16550 24350 16550
+Wire Wire Line
+	24550 16650 24350 16650
+Wire Wire Line
+	21950 15200 21850 15200
+Wire Wire Line
+	21950 15300 21850 15300
+Wire Wire Line
+	21950 15400 21850 15400
+Wire Wire Line
+	21950 15500 21850 15500
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 5D6A2084
+P 22150 15200
+F 0 "J1" H 22230 15242 50  0000 L CNN
+F 1 "Conn_01x07" H 22230 15151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 22150 15200 50  0001 C CNN
+F 3 "~" H 22150 15200 50  0001 C CNN
+	1    22150 15200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21550 14900 21950 14900
+Wire Wire Line
+	21550 15000 21950 15000
+NoConn ~ 24600 18800
+Wire Wire Line
+	27350 15200 27350 15700
+$Comp
+L Device:R_Small R9
+U 1 1 5D7015C5
+P 26900 15000
+F 0 "R9" V 26704 15000 50  0000 C CNN
+F 1 "R_Small" V 26795 15000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 15000 50  0001 C CNN
+F 3 "~" H 26900 15000 50  0001 C CNN
+	1    26900 15000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5D707F2E
+P 26900 15350
+F 0 "R10" V 26704 15350 50  0000 C CNN
+F 1 "R_Small" V 26795 15350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 15350 50  0001 C CNN
+F 3 "~" H 26900 15350 50  0001 C CNN
+	1    26900 15350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 5D70AC1F
+P 26900 15700
+F 0 "R11" V 26704 15700 50  0000 C CNN
+F 1 "R_Small" V 26795 15700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 15700 50  0001 C CNN
+F 3 "~" H 26900 15700 50  0001 C CNN
+	1    26900 15700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 5D70AC25
+P 26900 16050
+F 0 "R12" V 26704 16050 50  0000 C CNN
+F 1 "R_Small" V 26795 16050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 16050 50  0001 C CNN
+F 3 "~" H 26900 16050 50  0001 C CNN
+	1    26900 16050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R13
+U 1 1 5D70F4E6
+P 26900 16400
+F 0 "R13" V 26704 16400 50  0000 C CNN
+F 1 "R_Small" V 26795 16400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 16400 50  0001 C CNN
+F 3 "~" H 26900 16400 50  0001 C CNN
+	1    26900 16400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 5D70F4EC
+P 26900 16750
+F 0 "R14" V 26704 16750 50  0000 C CNN
+F 1 "R_Small" V 26795 16750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 16750 50  0001 C CNN
+F 3 "~" H 26900 16750 50  0001 C CNN
+	1    26900 16750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R15
+U 1 1 5D70F4F2
+P 26900 17100
+F 0 "R15" V 26704 17100 50  0000 C CNN
+F 1 "R_Small" V 26795 17100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 17100 50  0001 C CNN
+F 3 "~" H 26900 17100 50  0001 C CNN
+	1    26900 17100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 5D70F4F8
+P 26900 17450
+F 0 "R16" V 26704 17450 50  0000 C CNN
+F 1 "R_Small" V 26795 17450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 17450 50  0001 C CNN
+F 3 "~" H 26900 17450 50  0001 C CNN
+	1    26900 17450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 5D7180B7
+P 26900 18250
+F 0 "R17" V 26704 18250 50  0000 C CNN
+F 1 "R_Small" V 26795 18250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 18250 50  0001 C CNN
+F 3 "~" H 26900 18250 50  0001 C CNN
+	1    26900 18250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R18
+U 1 1 5D7180BD
+P 26900 18600
+F 0 "R18" V 26704 18600 50  0000 C CNN
+F 1 "R_Small" V 26795 18600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 18600 50  0001 C CNN
+F 3 "~" H 26900 18600 50  0001 C CNN
+	1    26900 18600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R19
+U 1 1 5D7180C3
+P 26900 18950
+F 0 "R19" V 26704 18950 50  0000 C CNN
+F 1 "R_Small" V 26795 18950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 18950 50  0001 C CNN
+F 3 "~" H 26900 18950 50  0001 C CNN
+	1    26900 18950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R20
+U 1 1 5D7180C9
+P 26900 19300
+F 0 "R20" V 26704 19300 50  0000 C CNN
+F 1 "R_Small" V 26795 19300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 19300 50  0001 C CNN
+F 3 "~" H 26900 19300 50  0001 C CNN
+	1    26900 19300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R21
+U 1 1 5D7180CF
+P 26900 19650
+F 0 "R21" V 26704 19650 50  0000 C CNN
+F 1 "R_Small" V 26795 19650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 19650 50  0001 C CNN
+F 3 "~" H 26900 19650 50  0001 C CNN
+	1    26900 19650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R22
+U 1 1 5D7180D5
+P 26900 20000
+F 0 "R22" V 26704 20000 50  0000 C CNN
+F 1 "R_Small" V 26795 20000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 20000 50  0001 C CNN
+F 3 "~" H 26900 20000 50  0001 C CNN
+	1    26900 20000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R23
+U 1 1 5D7180DB
+P 26900 20350
+F 0 "R23" V 26704 20350 50  0000 C CNN
+F 1 "R_Small" V 26795 20350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 20350 50  0001 C CNN
+F 3 "~" H 26900 20350 50  0001 C CNN
+	1    26900 20350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 5D7180E1
+P 26900 20700
+F 0 "R24" V 26704 20700 50  0000 C CNN
+F 1 "R_Small" V 26795 20700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 26900 20700 50  0001 C CNN
+F 3 "~" H 26900 20700 50  0001 C CNN
+	1    26900 20700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	26650 15000 26800 15000
+Wire Wire Line
+	26800 15350 26650 15350
+Wire Wire Line
+	26800 15700 26650 15700
+Wire Wire Line
+	26800 16050 26650 16050
+Wire Wire Line
+	26650 16400 26800 16400
+Wire Wire Line
+	26650 16750 26800 16750
+Wire Wire Line
+	26800 17100 26650 17100
+Wire Wire Line
+	26650 17450 26800 17450
+Wire Wire Line
+	26650 18250 26800 18250
+Wire Wire Line
+	26800 18600 26650 18600
+Wire Wire Line
+	26650 18950 26800 18950
+Wire Wire Line
+	26800 19300 26650 19300
+Wire Wire Line
+	26800 19650 26650 19650
+Wire Wire Line
+	26800 20000 26650 20000
+Wire Wire Line
+	26650 20350 26800 20350
+Wire Wire Line
+	26800 20700 26650 20700
+Wire Wire Line
+	27000 15000 27000 15350
+Connection ~ 27000 15350
+Wire Wire Line
+	27000 15350 27000 15700
+Connection ~ 27000 15700
+Wire Wire Line
+	27000 15700 27000 16050
+Connection ~ 27000 16050
+Wire Wire Line
+	27000 16050 27000 16400
+Connection ~ 27000 16400
+Wire Wire Line
+	27000 16400 27000 16750
+Connection ~ 27000 16750
+Wire Wire Line
+	27000 16750 27000 17100
+Connection ~ 27000 17100
+Wire Wire Line
+	27000 17100 27000 17450
+Wire Wire Line
+	27350 15700 27000 15700
+Wire Wire Line
+	27000 18250 27000 18600
+Connection ~ 27000 18600
+Wire Wire Line
+	27000 18600 27000 18950
+Connection ~ 27000 18950
+Wire Wire Line
+	27000 18950 27000 19300
+Connection ~ 27000 19300
+Wire Wire Line
+	27000 19300 27000 19650
+Connection ~ 27000 19650
+Wire Wire Line
+	27000 19650 27000 20000
+Connection ~ 27000 20000
+Wire Wire Line
+	27000 20000 27000 20350
+Connection ~ 27000 20350
+Wire Wire Line
+	27000 20350 27000 20700
+Wire Wire Line
+	27350 19100 27350 18950
+Wire Wire Line
+	27350 18950 27000 18950
+Text Label 25950 15700 0    50   ~ 0
+X2
+Text Label 25950 15350 0    50   ~ 0
+X1
+Text Label 25950 15000 0    50   ~ 0
+X0
+$Comp
+L Diode:BAV99 D1
+U 1 1 5D8CC425
+P 2600 2450
+F 0 "D1" V 2646 2362 50  0000 R CNN
+F 1 "BAV99" V 2555 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 2550 50  0001 C CNN
+	1    2600 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D1
+U 2 1 5D8CCA28
+P 2600 2750
+F 0 "D1" V 2646 2662 50  0000 R CNN
+F 1 "BAV99" V 2555 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 2850 50  0001 C CNN
+	2    2600 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D8CFE7A
+P 3050 2700
+F 0 "H1" H 2950 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 2700 50  0001 C CNN
+F 3 "~" H 3050 2700 50  0001 C CNN
+	1    3050 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 2600 2600 2600
+Connection ~ 2600 2600
+Wire Wire Line
+	2600 2900 2950 2900
+$Comp
+L Diode:BAV99 D2
+U 1 1 5D9BCF96
+P 2600 3150
+F 0 "D2" V 2646 3062 50  0000 R CNN
+F 1 "BAV99" V 2555 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 3250 50  0001 C CNN
+	1    2600 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D2
+U 2 1 5D9BCF9C
+P 2600 3450
+F 0 "D2" V 2646 3362 50  0000 R CNN
+F 1 "BAV99" V 2555 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 3550 50  0001 C CNN
+	2    2600 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D9BCFA2
+P 3050 3400
+F 0 "H2" H 2950 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 3400 50  0001 C CNN
+F 3 "~" H 3050 3400 50  0001 C CNN
+	1    3050 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 3300 2600 3300
+Connection ~ 2600 3300
+Wire Wire Line
+	2600 3600 2950 3600
+$Comp
+L Diode:BAV99 D3
+U 1 1 5D9C22B0
+P 2600 3850
+F 0 "D3" V 2646 3762 50  0000 R CNN
+F 1 "BAV99" V 2555 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 3950 50  0001 C CNN
+	1    2600 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D3
+U 2 1 5D9C22B6
+P 2600 4150
+F 0 "D3" V 2646 4062 50  0000 R CNN
+F 1 "BAV99" V 2555 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 4250 50  0001 C CNN
+	2    2600 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D9C22BC
+P 3050 4100
+F 0 "H3" H 2950 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 4100 50  0001 C CNN
+F 3 "~" H 3050 4100 50  0001 C CNN
+	1    3050 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 4000 2600 4000
+Connection ~ 2600 4000
+Wire Wire Line
+	2600 4300 2950 4300
+$Comp
+L Diode:BAV99 D4
+U 1 1 5D9C22C5
+P 2600 4550
+F 0 "D4" V 2646 4462 50  0000 R CNN
+F 1 "BAV99" V 2555 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 4650 50  0001 C CNN
+	1    2600 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D4
+U 2 1 5D9C22CB
+P 2600 4850
+F 0 "D4" V 2646 4762 50  0000 R CNN
+F 1 "BAV99" V 2555 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 4950 50  0001 C CNN
+	2    2600 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D9C22D1
+P 3050 4800
+F 0 "H4" H 2950 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 4800 50  0001 C CNN
+F 3 "~" H 3050 4800 50  0001 C CNN
+	1    3050 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 4700 2600 4700
+Connection ~ 2600 4700
+Wire Wire Line
+	2600 5000 2950 5000
+$Comp
+L Diode:BAV99 D5
+U 1 1 5D9CB490
+P 2600 5250
+F 0 "D5" V 2646 5162 50  0000 R CNN
+F 1 "BAV99" V 2555 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 5350 50  0001 C CNN
+	1    2600 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D5
+U 2 1 5D9CB496
+P 2600 5550
+F 0 "D5" V 2646 5462 50  0000 R CNN
+F 1 "BAV99" V 2555 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 5650 50  0001 C CNN
+	2    2600 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5D9CB49C
+P 3050 5500
+F 0 "H5" H 2950 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 5500 50  0001 C CNN
+F 3 "~" H 3050 5500 50  0001 C CNN
+	1    3050 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 5400 2600 5400
+Connection ~ 2600 5400
+Wire Wire Line
+	2600 5700 2950 5700
+$Comp
+L Diode:BAV99 D6
+U 1 1 5D9CB4A5
+P 2600 5950
+F 0 "D6" V 2646 5862 50  0000 R CNN
+F 1 "BAV99" V 2555 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 6050 50  0001 C CNN
+	1    2600 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D6
+U 2 1 5D9CB4AB
+P 2600 6250
+F 0 "D6" V 2646 6162 50  0000 R CNN
+F 1 "BAV99" V 2555 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 6350 50  0001 C CNN
+	2    2600 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5D9CB4B1
+P 3050 6200
+F 0 "H6" H 2950 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 6200 50  0001 C CNN
+F 3 "~" H 3050 6200 50  0001 C CNN
+	1    3050 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 6100 2600 6100
+Connection ~ 2600 6100
+Wire Wire Line
+	2600 6400 2950 6400
+$Comp
+L Diode:BAV99 D7
+U 1 1 5D9CB4BA
+P 2600 6650
+F 0 "D7" V 2646 6562 50  0000 R CNN
+F 1 "BAV99" V 2555 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 6750 50  0001 C CNN
+	1    2600 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D7
+U 2 1 5D9CB4C0
+P 2600 6950
+F 0 "D7" V 2646 6862 50  0000 R CNN
+F 1 "BAV99" V 2555 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 7050 50  0001 C CNN
+	2    2600 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5D9CB4C6
+P 3050 6900
+F 0 "H7" H 2950 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 6900 50  0001 C CNN
+F 3 "~" H 3050 6900 50  0001 C CNN
+	1    3050 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 6800 2600 6800
+Connection ~ 2600 6800
+Wire Wire Line
+	2600 7100 2950 7100
+$Comp
+L Diode:BAV99 D8
+U 1 1 5D9CB4CF
+P 2600 7350
+F 0 "D8" V 2646 7262 50  0000 R CNN
+F 1 "BAV99" V 2555 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 7450 50  0001 C CNN
+	1    2600 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D8
+U 2 1 5D9CB4D5
+P 2600 7650
+F 0 "D8" V 2646 7562 50  0000 R CNN
+F 1 "BAV99" V 2555 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2600 7750 50  0001 C CNN
+	2    2600 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5D9CB4DB
+P 3050 7600
+F 0 "H8" H 2950 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2950 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3050 7600 50  0001 C CNN
+F 3 "~" H 3050 7600 50  0001 C CNN
+	1    3050 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 7500 2600 7500
+Connection ~ 2600 7500
+Wire Wire Line
+	2600 7800 2950 7800
+$Comp
+L Diode:BAV99 D9
+U 1 1 5DA1E89C
+P 3400 2450
+F 0 "D9" V 3446 2362 50  0000 R CNN
+F 1 "BAV99" V 3355 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 2550 50  0001 C CNN
+	1    3400 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D9
+U 2 1 5DA1E8A2
+P 3400 2750
+F 0 "D9" V 3446 2662 50  0000 R CNN
+F 1 "BAV99" V 3355 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 2850 50  0001 C CNN
+	2    3400 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5DA1E8A8
+P 3850 2700
+F 0 "H9" H 3750 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 2700 50  0001 C CNN
+F 3 "~" H 3850 2700 50  0001 C CNN
+	1    3850 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 2600 3400 2600
+Connection ~ 3400 2600
+Wire Wire Line
+	3400 2900 3750 2900
+$Comp
+L Diode:BAV99 D10
+U 1 1 5DA1E8B1
+P 3400 3150
+F 0 "D10" V 3446 3062 50  0000 R CNN
+F 1 "BAV99" V 3355 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 3250 50  0001 C CNN
+	1    3400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D10
+U 2 1 5DA1E8B7
+P 3400 3450
+F 0 "D10" V 3446 3362 50  0000 R CNN
+F 1 "BAV99" V 3355 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 3550 50  0001 C CNN
+	2    3400 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5DA1E8BD
+P 3850 3400
+F 0 "H10" H 3750 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 3400 50  0001 C CNN
+F 3 "~" H 3850 3400 50  0001 C CNN
+	1    3850 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 3300 3400 3300
+Connection ~ 3400 3300
+Wire Wire Line
+	3400 3600 3750 3600
+$Comp
+L Diode:BAV99 D11
+U 1 1 5DA1E8C6
+P 3400 3850
+F 0 "D11" V 3446 3762 50  0000 R CNN
+F 1 "BAV99" V 3355 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 3950 50  0001 C CNN
+	1    3400 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D11
+U 2 1 5DA1E8CC
+P 3400 4150
+F 0 "D11" V 3446 4062 50  0000 R CNN
+F 1 "BAV99" V 3355 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 4250 50  0001 C CNN
+	2    3400 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5DA1E8D2
+P 3850 4100
+F 0 "H11" H 3750 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 4100 50  0001 C CNN
+F 3 "~" H 3850 4100 50  0001 C CNN
+	1    3850 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 4000 3400 4000
+Connection ~ 3400 4000
+Wire Wire Line
+	3400 4300 3750 4300
+$Comp
+L Diode:BAV99 D12
+U 1 1 5DA1E8DB
+P 3400 4550
+F 0 "D12" V 3446 4462 50  0000 R CNN
+F 1 "BAV99" V 3355 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 4650 50  0001 C CNN
+	1    3400 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D12
+U 2 1 5DA1E8E1
+P 3400 4850
+F 0 "D12" V 3446 4762 50  0000 R CNN
+F 1 "BAV99" V 3355 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 4950 50  0001 C CNN
+	2    3400 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5DA1E8E7
+P 3850 4800
+F 0 "H12" H 3750 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 4800 50  0001 C CNN
+F 3 "~" H 3850 4800 50  0001 C CNN
+	1    3850 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 4700 3400 4700
+Connection ~ 3400 4700
+Wire Wire Line
+	3400 5000 3750 5000
+$Comp
+L Diode:BAV99 D13
+U 1 1 5DA1E8F0
+P 3400 5250
+F 0 "D13" V 3446 5162 50  0000 R CNN
+F 1 "BAV99" V 3355 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 5350 50  0001 C CNN
+	1    3400 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D13
+U 2 1 5DA1E8F6
+P 3400 5550
+F 0 "D13" V 3446 5462 50  0000 R CNN
+F 1 "BAV99" V 3355 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 5650 50  0001 C CNN
+	2    3400 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H13
+U 1 1 5DA1E8FC
+P 3850 5500
+F 0 "H13" H 3750 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 5500 50  0001 C CNN
+F 3 "~" H 3850 5500 50  0001 C CNN
+	1    3850 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 5400 3400 5400
+Connection ~ 3400 5400
+Wire Wire Line
+	3400 5700 3750 5700
+$Comp
+L Diode:BAV99 D14
+U 1 1 5DA1E905
+P 3400 5950
+F 0 "D14" V 3446 5862 50  0000 R CNN
+F 1 "BAV99" V 3355 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 6050 50  0001 C CNN
+	1    3400 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D14
+U 2 1 5DA1E90B
+P 3400 6250
+F 0 "D14" V 3446 6162 50  0000 R CNN
+F 1 "BAV99" V 3355 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 6350 50  0001 C CNN
+	2    3400 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H14
+U 1 1 5DA1E911
+P 3850 6200
+F 0 "H14" H 3750 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 6200 50  0001 C CNN
+F 3 "~" H 3850 6200 50  0001 C CNN
+	1    3850 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 6100 3400 6100
+Connection ~ 3400 6100
+Wire Wire Line
+	3400 6400 3750 6400
+$Comp
+L Diode:BAV99 D15
+U 1 1 5DA1E91A
+P 3400 6650
+F 0 "D15" V 3446 6562 50  0000 R CNN
+F 1 "BAV99" V 3355 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 6750 50  0001 C CNN
+	1    3400 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D15
+U 2 1 5DA1E920
+P 3400 6950
+F 0 "D15" V 3446 6862 50  0000 R CNN
+F 1 "BAV99" V 3355 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 7050 50  0001 C CNN
+	2    3400 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H15
+U 1 1 5DA1E926
+P 3850 6900
+F 0 "H15" H 3750 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 6900 50  0001 C CNN
+F 3 "~" H 3850 6900 50  0001 C CNN
+	1    3850 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 6800 3400 6800
+Connection ~ 3400 6800
+Wire Wire Line
+	3400 7100 3750 7100
+$Comp
+L Diode:BAV99 D16
+U 1 1 5DA1E92F
+P 3400 7350
+F 0 "D16" V 3446 7262 50  0000 R CNN
+F 1 "BAV99" V 3355 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 7450 50  0001 C CNN
+	1    3400 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D16
+U 2 1 5DA1E935
+P 3400 7650
+F 0 "D16" V 3446 7562 50  0000 R CNN
+F 1 "BAV99" V 3355 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3400 7750 50  0001 C CNN
+	2    3400 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H16
+U 1 1 5DA1E93B
+P 3850 7600
+F 0 "H16" H 3750 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3750 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 3850 7600 50  0001 C CNN
+F 3 "~" H 3850 7600 50  0001 C CNN
+	1    3850 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 7500 3400 7500
+Connection ~ 3400 7500
+Wire Wire Line
+	3400 7800 3750 7800
+$Comp
+L Diode:BAV99 D17
+U 1 1 5DA355F0
+P 4150 2450
+F 0 "D17" V 4196 2362 50  0000 R CNN
+F 1 "BAV99" V 4105 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 2550 50  0001 C CNN
+	1    4150 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D17
+U 2 1 5DA355F6
+P 4150 2750
+F 0 "D17" V 4196 2662 50  0000 R CNN
+F 1 "BAV99" V 4105 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 2850 50  0001 C CNN
+	2    4150 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H17
+U 1 1 5DA355FC
+P 4600 2700
+F 0 "H17" H 4500 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 2700 50  0001 C CNN
+F 3 "~" H 4600 2700 50  0001 C CNN
+	1    4600 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 2600 4150 2600
+Connection ~ 4150 2600
+Wire Wire Line
+	4150 2900 4500 2900
+$Comp
+L Diode:BAV99 D18
+U 1 1 5DA35605
+P 4150 3150
+F 0 "D18" V 4196 3062 50  0000 R CNN
+F 1 "BAV99" V 4105 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 3250 50  0001 C CNN
+	1    4150 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D18
+U 2 1 5DA3560B
+P 4150 3450
+F 0 "D18" V 4196 3362 50  0000 R CNN
+F 1 "BAV99" V 4105 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 3550 50  0001 C CNN
+	2    4150 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H18
+U 1 1 5DA35611
+P 4600 3400
+F 0 "H18" H 4500 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 3400 50  0001 C CNN
+F 3 "~" H 4600 3400 50  0001 C CNN
+	1    4600 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3300 4150 3300
+Connection ~ 4150 3300
+Wire Wire Line
+	4150 3600 4500 3600
+$Comp
+L Diode:BAV99 D19
+U 1 1 5DA3561A
+P 4150 3850
+F 0 "D19" V 4196 3762 50  0000 R CNN
+F 1 "BAV99" V 4105 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 3950 50  0001 C CNN
+	1    4150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D19
+U 2 1 5DA35620
+P 4150 4150
+F 0 "D19" V 4196 4062 50  0000 R CNN
+F 1 "BAV99" V 4105 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 4250 50  0001 C CNN
+	2    4150 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H19
+U 1 1 5DA35626
+P 4600 4100
+F 0 "H19" H 4500 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 4100 50  0001 C CNN
+F 3 "~" H 4600 4100 50  0001 C CNN
+	1    4600 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 4000 4150 4000
+Connection ~ 4150 4000
+Wire Wire Line
+	4150 4300 4500 4300
+$Comp
+L Diode:BAV99 D20
+U 1 1 5DA3562F
+P 4150 4550
+F 0 "D20" V 4196 4462 50  0000 R CNN
+F 1 "BAV99" V 4105 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 4650 50  0001 C CNN
+	1    4150 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D20
+U 2 1 5DA35635
+P 4150 4850
+F 0 "D20" V 4196 4762 50  0000 R CNN
+F 1 "BAV99" V 4105 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 4950 50  0001 C CNN
+	2    4150 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H20
+U 1 1 5DA3563B
+P 4600 4800
+F 0 "H20" H 4500 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 4800 50  0001 C CNN
+F 3 "~" H 4600 4800 50  0001 C CNN
+	1    4600 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 4700 4150 4700
+Connection ~ 4150 4700
+Wire Wire Line
+	4150 5000 4500 5000
+$Comp
+L Diode:BAV99 D21
+U 1 1 5DA35644
+P 4150 5250
+F 0 "D21" V 4196 5162 50  0000 R CNN
+F 1 "BAV99" V 4105 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 5350 50  0001 C CNN
+	1    4150 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D21
+U 2 1 5DA3564A
+P 4150 5550
+F 0 "D21" V 4196 5462 50  0000 R CNN
+F 1 "BAV99" V 4105 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 5650 50  0001 C CNN
+	2    4150 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H21
+U 1 1 5DA35650
+P 4600 5500
+F 0 "H21" H 4500 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 5500 50  0001 C CNN
+F 3 "~" H 4600 5500 50  0001 C CNN
+	1    4600 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 5400 4150 5400
+Connection ~ 4150 5400
+Wire Wire Line
+	4150 5700 4500 5700
+$Comp
+L Diode:BAV99 D22
+U 1 1 5DA35659
+P 4150 5950
+F 0 "D22" V 4196 5862 50  0000 R CNN
+F 1 "BAV99" V 4105 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 6050 50  0001 C CNN
+	1    4150 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D22
+U 2 1 5DA3565F
+P 4150 6250
+F 0 "D22" V 4196 6162 50  0000 R CNN
+F 1 "BAV99" V 4105 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 6350 50  0001 C CNN
+	2    4150 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H22
+U 1 1 5DA35665
+P 4600 6200
+F 0 "H22" H 4500 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 6200 50  0001 C CNN
+F 3 "~" H 4600 6200 50  0001 C CNN
+	1    4600 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6100 4150 6100
+Connection ~ 4150 6100
+Wire Wire Line
+	4150 6400 4500 6400
+$Comp
+L Diode:BAV99 D23
+U 1 1 5DA3566E
+P 4150 6650
+F 0 "D23" V 4196 6562 50  0000 R CNN
+F 1 "BAV99" V 4105 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 6750 50  0001 C CNN
+	1    4150 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D23
+U 2 1 5DA35674
+P 4150 6950
+F 0 "D23" V 4196 6862 50  0000 R CNN
+F 1 "BAV99" V 4105 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 7050 50  0001 C CNN
+	2    4150 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H23
+U 1 1 5DA3567A
+P 4600 6900
+F 0 "H23" H 4500 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 6900 50  0001 C CNN
+F 3 "~" H 4600 6900 50  0001 C CNN
+	1    4600 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 6800 4150 6800
+Connection ~ 4150 6800
+Wire Wire Line
+	4150 7100 4500 7100
+$Comp
+L Diode:BAV99 D24
+U 1 1 5DA35683
+P 4150 7350
+F 0 "D24" V 4196 7262 50  0000 R CNN
+F 1 "BAV99" V 4105 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 7450 50  0001 C CNN
+	1    4150 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D24
+U 2 1 5DA35689
+P 4150 7650
+F 0 "D24" V 4196 7562 50  0000 R CNN
+F 1 "BAV99" V 4105 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4150 7750 50  0001 C CNN
+	2    4150 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H24
+U 1 1 5DA3568F
+P 4600 7600
+F 0 "H24" H 4500 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4500 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 4600 7600 50  0001 C CNN
+F 3 "~" H 4600 7600 50  0001 C CNN
+	1    4600 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 7500 4150 7500
+Connection ~ 4150 7500
+Wire Wire Line
+	4150 7800 4500 7800
+$Comp
+L Diode:BAV99 D25
+U 1 1 5DA35698
+P 4950 2450
+F 0 "D25" V 4996 2362 50  0000 R CNN
+F 1 "BAV99" V 4905 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 2550 50  0001 C CNN
+	1    4950 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D25
+U 2 1 5DA3569E
+P 4950 2750
+F 0 "D25" V 4996 2662 50  0000 R CNN
+F 1 "BAV99" V 4905 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 2850 50  0001 C CNN
+	2    4950 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H25
+U 1 1 5DA356A4
+P 5400 2700
+F 0 "H25" H 5300 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 2700 50  0001 C CNN
+F 3 "~" H 5400 2700 50  0001 C CNN
+	1    5400 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2600 4950 2600
+Connection ~ 4950 2600
+Wire Wire Line
+	4950 2900 5300 2900
+$Comp
+L Diode:BAV99 D26
+U 1 1 5DA356AD
+P 4950 3150
+F 0 "D26" V 4996 3062 50  0000 R CNN
+F 1 "BAV99" V 4905 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 3250 50  0001 C CNN
+	1    4950 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D26
+U 2 1 5DA356B3
+P 4950 3450
+F 0 "D26" V 4996 3362 50  0000 R CNN
+F 1 "BAV99" V 4905 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 3550 50  0001 C CNN
+	2    4950 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H26
+U 1 1 5DA356B9
+P 5400 3400
+F 0 "H26" H 5300 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 3400 50  0001 C CNN
+F 3 "~" H 5400 3400 50  0001 C CNN
+	1    5400 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3300 4950 3300
+Connection ~ 4950 3300
+Wire Wire Line
+	4950 3600 5300 3600
+$Comp
+L Diode:BAV99 D27
+U 1 1 5DA356C2
+P 4950 3850
+F 0 "D27" V 4996 3762 50  0000 R CNN
+F 1 "BAV99" V 4905 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 3950 50  0001 C CNN
+	1    4950 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D27
+U 2 1 5DA356C8
+P 4950 4150
+F 0 "D27" V 4996 4062 50  0000 R CNN
+F 1 "BAV99" V 4905 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 4250 50  0001 C CNN
+	2    4950 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H27
+U 1 1 5DA356CE
+P 5400 4100
+F 0 "H27" H 5300 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 4100 50  0001 C CNN
+F 3 "~" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4000 4950 4000
+Connection ~ 4950 4000
+Wire Wire Line
+	4950 4300 5300 4300
+$Comp
+L Diode:BAV99 D28
+U 1 1 5DA356D7
+P 4950 4550
+F 0 "D28" V 4996 4462 50  0000 R CNN
+F 1 "BAV99" V 4905 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 4650 50  0001 C CNN
+	1    4950 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D28
+U 2 1 5DA356DD
+P 4950 4850
+F 0 "D28" V 4996 4762 50  0000 R CNN
+F 1 "BAV99" V 4905 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 4950 50  0001 C CNN
+	2    4950 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H28
+U 1 1 5DA356E3
+P 5400 4800
+F 0 "H28" H 5300 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 4800 50  0001 C CNN
+F 3 "~" H 5400 4800 50  0001 C CNN
+	1    5400 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4700 4950 4700
+Connection ~ 4950 4700
+Wire Wire Line
+	4950 5000 5300 5000
+$Comp
+L Diode:BAV99 D29
+U 1 1 5DA356EC
+P 4950 5250
+F 0 "D29" V 4996 5162 50  0000 R CNN
+F 1 "BAV99" V 4905 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 5350 50  0001 C CNN
+	1    4950 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D29
+U 2 1 5DA356F2
+P 4950 5550
+F 0 "D29" V 4996 5462 50  0000 R CNN
+F 1 "BAV99" V 4905 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 5650 50  0001 C CNN
+	2    4950 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H29
+U 1 1 5DA356F8
+P 5400 5500
+F 0 "H29" H 5300 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 5500 50  0001 C CNN
+F 3 "~" H 5400 5500 50  0001 C CNN
+	1    5400 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 5400 4950 5400
+Connection ~ 4950 5400
+Wire Wire Line
+	4950 5700 5300 5700
+$Comp
+L Diode:BAV99 D30
+U 1 1 5DA35701
+P 4950 5950
+F 0 "D30" V 4996 5862 50  0000 R CNN
+F 1 "BAV99" V 4905 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 6050 50  0001 C CNN
+	1    4950 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D30
+U 2 1 5DA35707
+P 4950 6250
+F 0 "D30" V 4996 6162 50  0000 R CNN
+F 1 "BAV99" V 4905 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 6350 50  0001 C CNN
+	2    4950 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H30
+U 1 1 5DA3570D
+P 5400 6200
+F 0 "H30" H 5300 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 6200 50  0001 C CNN
+F 3 "~" H 5400 6200 50  0001 C CNN
+	1    5400 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 6100 4950 6100
+Connection ~ 4950 6100
+Wire Wire Line
+	4950 6400 5300 6400
+$Comp
+L Diode:BAV99 D31
+U 1 1 5DA35716
+P 4950 6650
+F 0 "D31" V 4996 6562 50  0000 R CNN
+F 1 "BAV99" V 4905 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 6750 50  0001 C CNN
+	1    4950 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D31
+U 2 1 5DA3571C
+P 4950 6950
+F 0 "D31" V 4996 6862 50  0000 R CNN
+F 1 "BAV99" V 4905 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 7050 50  0001 C CNN
+	2    4950 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H31
+U 1 1 5DA35722
+P 5400 6900
+F 0 "H31" H 5300 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 6900 50  0001 C CNN
+F 3 "~" H 5400 6900 50  0001 C CNN
+	1    5400 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 6800 4950 6800
+Connection ~ 4950 6800
+Wire Wire Line
+	4950 7100 5300 7100
+$Comp
+L Diode:BAV99 D32
+U 1 1 5DA3572B
+P 4950 7350
+F 0 "D32" V 4996 7262 50  0000 R CNN
+F 1 "BAV99" V 4905 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 7450 50  0001 C CNN
+	1    4950 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D32
+U 2 1 5DA35731
+P 4950 7650
+F 0 "D32" V 4996 7562 50  0000 R CNN
+F 1 "BAV99" V 4905 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 4950 7750 50  0001 C CNN
+	2    4950 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H32
+U 1 1 5DA35737
+P 5400 7600
+F 0 "H32" H 5300 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5300 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 5400 7600 50  0001 C CNN
+F 3 "~" H 5400 7600 50  0001 C CNN
+	1    5400 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 7500 4950 7500
+Connection ~ 4950 7500
+Wire Wire Line
+	4950 7800 5300 7800
+$Comp
+L Diode:BAV99 D33
+U 1 1 5DA5A4A2
+P 5700 2450
+F 0 "D33" V 5746 2362 50  0000 R CNN
+F 1 "BAV99" V 5655 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 2550 50  0001 C CNN
+	1    5700 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D33
+U 2 1 5DA5A4A8
+P 5700 2750
+F 0 "D33" V 5746 2662 50  0000 R CNN
+F 1 "BAV99" V 5655 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 2850 50  0001 C CNN
+	2    5700 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H33
+U 1 1 5DA5A4AE
+P 6150 2700
+F 0 "H33" H 6050 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 2700 50  0001 C CNN
+F 3 "~" H 6150 2700 50  0001 C CNN
+	1    6150 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2600 5700 2600
+Connection ~ 5700 2600
+Wire Wire Line
+	5700 2900 6050 2900
+$Comp
+L Diode:BAV99 D34
+U 1 1 5DA5A4B7
+P 5700 3150
+F 0 "D34" V 5746 3062 50  0000 R CNN
+F 1 "BAV99" V 5655 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 3250 50  0001 C CNN
+	1    5700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D34
+U 2 1 5DA5A4BD
+P 5700 3450
+F 0 "D34" V 5746 3362 50  0000 R CNN
+F 1 "BAV99" V 5655 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 3550 50  0001 C CNN
+	2    5700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H34
+U 1 1 5DA5A4C3
+P 6150 3400
+F 0 "H34" H 6050 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 3400 50  0001 C CNN
+F 3 "~" H 6150 3400 50  0001 C CNN
+	1    6150 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 3300 5700 3300
+Connection ~ 5700 3300
+Wire Wire Line
+	5700 3600 6050 3600
+$Comp
+L Diode:BAV99 D35
+U 1 1 5DA5A4CC
+P 5700 3850
+F 0 "D35" V 5746 3762 50  0000 R CNN
+F 1 "BAV99" V 5655 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 3950 50  0001 C CNN
+	1    5700 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D35
+U 2 1 5DA5A4D2
+P 5700 4150
+F 0 "D35" V 5746 4062 50  0000 R CNN
+F 1 "BAV99" V 5655 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 4250 50  0001 C CNN
+	2    5700 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H35
+U 1 1 5DA5A4D8
+P 6150 4100
+F 0 "H35" H 6050 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 4100 50  0001 C CNN
+F 3 "~" H 6150 4100 50  0001 C CNN
+	1    6150 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 4000 5700 4000
+Connection ~ 5700 4000
+Wire Wire Line
+	5700 4300 6050 4300
+$Comp
+L Diode:BAV99 D36
+U 1 1 5DA5A4E1
+P 5700 4550
+F 0 "D36" V 5746 4462 50  0000 R CNN
+F 1 "BAV99" V 5655 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 4650 50  0001 C CNN
+	1    5700 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D36
+U 2 1 5DA5A4E7
+P 5700 4850
+F 0 "D36" V 5746 4762 50  0000 R CNN
+F 1 "BAV99" V 5655 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 4950 50  0001 C CNN
+	2    5700 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H36
+U 1 1 5DA5A4ED
+P 6150 4800
+F 0 "H36" H 6050 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 4800 50  0001 C CNN
+F 3 "~" H 6150 4800 50  0001 C CNN
+	1    6150 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 4700 5700 4700
+Connection ~ 5700 4700
+Wire Wire Line
+	5700 5000 6050 5000
+$Comp
+L Diode:BAV99 D37
+U 1 1 5DA5A4F6
+P 5700 5250
+F 0 "D37" V 5746 5162 50  0000 R CNN
+F 1 "BAV99" V 5655 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 5350 50  0001 C CNN
+	1    5700 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D37
+U 2 1 5DA5A4FC
+P 5700 5550
+F 0 "D37" V 5746 5462 50  0000 R CNN
+F 1 "BAV99" V 5655 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 5650 50  0001 C CNN
+	2    5700 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H37
+U 1 1 5DA5A502
+P 6150 5500
+F 0 "H37" H 6050 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 5500 50  0001 C CNN
+F 3 "~" H 6150 5500 50  0001 C CNN
+	1    6150 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 5400 5700 5400
+Connection ~ 5700 5400
+Wire Wire Line
+	5700 5700 6050 5700
+$Comp
+L Diode:BAV99 D38
+U 1 1 5DA5A50B
+P 5700 5950
+F 0 "D38" V 5746 5862 50  0000 R CNN
+F 1 "BAV99" V 5655 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 6050 50  0001 C CNN
+	1    5700 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D38
+U 2 1 5DA5A511
+P 5700 6250
+F 0 "D38" V 5746 6162 50  0000 R CNN
+F 1 "BAV99" V 5655 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 6350 50  0001 C CNN
+	2    5700 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H38
+U 1 1 5DA5A517
+P 6150 6200
+F 0 "H38" H 6050 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 6200 50  0001 C CNN
+F 3 "~" H 6150 6200 50  0001 C CNN
+	1    6150 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 6100 5700 6100
+Connection ~ 5700 6100
+Wire Wire Line
+	5700 6400 6050 6400
+$Comp
+L Diode:BAV99 D39
+U 1 1 5DA5A520
+P 5700 6650
+F 0 "D39" V 5746 6562 50  0000 R CNN
+F 1 "BAV99" V 5655 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 6750 50  0001 C CNN
+	1    5700 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D39
+U 2 1 5DA5A526
+P 5700 6950
+F 0 "D39" V 5746 6862 50  0000 R CNN
+F 1 "BAV99" V 5655 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 7050 50  0001 C CNN
+	2    5700 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H39
+U 1 1 5DA5A52C
+P 6150 6900
+F 0 "H39" H 6050 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 6900 50  0001 C CNN
+F 3 "~" H 6150 6900 50  0001 C CNN
+	1    6150 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 6800 5700 6800
+Connection ~ 5700 6800
+Wire Wire Line
+	5700 7100 6050 7100
+$Comp
+L Diode:BAV99 D40
+U 1 1 5DA5A535
+P 5700 7350
+F 0 "D40" V 5746 7262 50  0000 R CNN
+F 1 "BAV99" V 5655 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 7450 50  0001 C CNN
+	1    5700 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D40
+U 2 1 5DA5A53B
+P 5700 7650
+F 0 "D40" V 5746 7562 50  0000 R CNN
+F 1 "BAV99" V 5655 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5700 7750 50  0001 C CNN
+	2    5700 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H40
+U 1 1 5DA5A541
+P 6150 7600
+F 0 "H40" H 6050 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6050 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6150 7600 50  0001 C CNN
+F 3 "~" H 6150 7600 50  0001 C CNN
+	1    6150 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 7500 5700 7500
+Connection ~ 5700 7500
+Wire Wire Line
+	5700 7800 6050 7800
+$Comp
+L Diode:BAV99 D41
+U 1 1 5DA5A54A
+P 6500 2450
+F 0 "D41" V 6546 2362 50  0000 R CNN
+F 1 "BAV99" V 6455 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 2550 50  0001 C CNN
+	1    6500 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D41
+U 2 1 5DA5A550
+P 6500 2750
+F 0 "D41" V 6546 2662 50  0000 R CNN
+F 1 "BAV99" V 6455 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 2850 50  0001 C CNN
+	2    6500 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H41
+U 1 1 5DA5A556
+P 6950 2700
+F 0 "H41" H 6850 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 2700 50  0001 C CNN
+F 3 "~" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2600 6500 2600
+Connection ~ 6500 2600
+Wire Wire Line
+	6500 2900 6850 2900
+$Comp
+L Diode:BAV99 D42
+U 1 1 5DA5A55F
+P 6500 3150
+F 0 "D42" V 6546 3062 50  0000 R CNN
+F 1 "BAV99" V 6455 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 3250 50  0001 C CNN
+	1    6500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D42
+U 2 1 5DA5A565
+P 6500 3450
+F 0 "D42" V 6546 3362 50  0000 R CNN
+F 1 "BAV99" V 6455 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 3550 50  0001 C CNN
+	2    6500 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H42
+U 1 1 5DA5A56B
+P 6950 3400
+F 0 "H42" H 6850 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 3400 50  0001 C CNN
+F 3 "~" H 6950 3400 50  0001 C CNN
+	1    6950 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 3300 6500 3300
+Connection ~ 6500 3300
+Wire Wire Line
+	6500 3600 6850 3600
+$Comp
+L Diode:BAV99 D43
+U 1 1 5DA5A574
+P 6500 3850
+F 0 "D43" V 6546 3762 50  0000 R CNN
+F 1 "BAV99" V 6455 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 3950 50  0001 C CNN
+	1    6500 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D43
+U 2 1 5DA5A57A
+P 6500 4150
+F 0 "D43" V 6546 4062 50  0000 R CNN
+F 1 "BAV99" V 6455 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 4250 50  0001 C CNN
+	2    6500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H43
+U 1 1 5DA5A580
+P 6950 4100
+F 0 "H43" H 6850 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 4100 50  0001 C CNN
+F 3 "~" H 6950 4100 50  0001 C CNN
+	1    6950 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 4000 6500 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4300 6850 4300
+$Comp
+L Diode:BAV99 D44
+U 1 1 5DA5A589
+P 6500 4550
+F 0 "D44" V 6546 4462 50  0000 R CNN
+F 1 "BAV99" V 6455 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 4650 50  0001 C CNN
+	1    6500 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D44
+U 2 1 5DA5A58F
+P 6500 4850
+F 0 "D44" V 6546 4762 50  0000 R CNN
+F 1 "BAV99" V 6455 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 4950 50  0001 C CNN
+	2    6500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H44
+U 1 1 5DA5A595
+P 6950 4800
+F 0 "H44" H 6850 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 4800 50  0001 C CNN
+F 3 "~" H 6950 4800 50  0001 C CNN
+	1    6950 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 4700 6500 4700
+Connection ~ 6500 4700
+Wire Wire Line
+	6500 5000 6850 5000
+$Comp
+L Diode:BAV99 D45
+U 1 1 5DA5A59E
+P 6500 5250
+F 0 "D45" V 6546 5162 50  0000 R CNN
+F 1 "BAV99" V 6455 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 5350 50  0001 C CNN
+	1    6500 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D45
+U 2 1 5DA5A5A4
+P 6500 5550
+F 0 "D45" V 6546 5462 50  0000 R CNN
+F 1 "BAV99" V 6455 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 5650 50  0001 C CNN
+	2    6500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H45
+U 1 1 5DA5A5AA
+P 6950 5500
+F 0 "H45" H 6850 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 5500 50  0001 C CNN
+F 3 "~" H 6950 5500 50  0001 C CNN
+	1    6950 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 5400 6500 5400
+Connection ~ 6500 5400
+Wire Wire Line
+	6500 5700 6850 5700
+$Comp
+L Diode:BAV99 D46
+U 1 1 5DA5A5B3
+P 6500 5950
+F 0 "D46" V 6546 5862 50  0000 R CNN
+F 1 "BAV99" V 6455 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 6050 50  0001 C CNN
+	1    6500 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D46
+U 2 1 5DA5A5B9
+P 6500 6250
+F 0 "D46" V 6546 6162 50  0000 R CNN
+F 1 "BAV99" V 6455 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 6350 50  0001 C CNN
+	2    6500 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H46
+U 1 1 5DA5A5BF
+P 6950 6200
+F 0 "H46" H 6850 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 6200 50  0001 C CNN
+F 3 "~" H 6950 6200 50  0001 C CNN
+	1    6950 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 6100 6500 6100
+Connection ~ 6500 6100
+Wire Wire Line
+	6500 6400 6850 6400
+$Comp
+L Diode:BAV99 D47
+U 1 1 5DA5A5C8
+P 6500 6650
+F 0 "D47" V 6546 6562 50  0000 R CNN
+F 1 "BAV99" V 6455 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 6750 50  0001 C CNN
+	1    6500 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D47
+U 2 1 5DA5A5CE
+P 6500 6950
+F 0 "D47" V 6546 6862 50  0000 R CNN
+F 1 "BAV99" V 6455 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 7050 50  0001 C CNN
+	2    6500 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H47
+U 1 1 5DA5A5D4
+P 6950 6900
+F 0 "H47" H 6850 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 6900 50  0001 C CNN
+F 3 "~" H 6950 6900 50  0001 C CNN
+	1    6950 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 6800 6500 6800
+Connection ~ 6500 6800
+Wire Wire Line
+	6500 7100 6850 7100
+$Comp
+L Diode:BAV99 D48
+U 1 1 5DA5A5DD
+P 6500 7350
+F 0 "D48" V 6546 7262 50  0000 R CNN
+F 1 "BAV99" V 6455 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 7450 50  0001 C CNN
+	1    6500 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D48
+U 2 1 5DA5A5E3
+P 6500 7650
+F 0 "D48" V 6546 7562 50  0000 R CNN
+F 1 "BAV99" V 6455 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 6500 7750 50  0001 C CNN
+	2    6500 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H48
+U 1 1 5DA5A5E9
+P 6950 7600
+F 0 "H48" H 6850 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6850 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 6950 7600 50  0001 C CNN
+F 3 "~" H 6950 7600 50  0001 C CNN
+	1    6950 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 7500 6500 7500
+Connection ~ 6500 7500
+Wire Wire Line
+	6500 7800 6850 7800
+$Comp
+L Diode:BAV99 D49
+U 1 1 5DA5A5F2
+P 7250 2450
+F 0 "D49" V 7296 2362 50  0000 R CNN
+F 1 "BAV99" V 7205 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 2550 50  0001 C CNN
+	1    7250 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D49
+U 2 1 5DA5A5F8
+P 7250 2750
+F 0 "D49" V 7296 2662 50  0000 R CNN
+F 1 "BAV99" V 7205 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 2850 50  0001 C CNN
+	2    7250 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H49
+U 1 1 5DA5A5FE
+P 7700 2700
+F 0 "H49" H 7600 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 2700 50  0001 C CNN
+F 3 "~" H 7700 2700 50  0001 C CNN
+	1    7700 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 2600 7250 2600
+Connection ~ 7250 2600
+Wire Wire Line
+	7250 2900 7600 2900
+$Comp
+L Diode:BAV99 D50
+U 1 1 5DA5A607
+P 7250 3150
+F 0 "D50" V 7296 3062 50  0000 R CNN
+F 1 "BAV99" V 7205 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 3250 50  0001 C CNN
+	1    7250 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D50
+U 2 1 5DA5A60D
+P 7250 3450
+F 0 "D50" V 7296 3362 50  0000 R CNN
+F 1 "BAV99" V 7205 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 3550 50  0001 C CNN
+	2    7250 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H50
+U 1 1 5DA5A613
+P 7700 3400
+F 0 "H50" H 7600 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 3400 50  0001 C CNN
+F 3 "~" H 7700 3400 50  0001 C CNN
+	1    7700 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 3300 7250 3300
+Connection ~ 7250 3300
+Wire Wire Line
+	7250 3600 7600 3600
+$Comp
+L Diode:BAV99 D51
+U 1 1 5DA5A61C
+P 7250 3850
+F 0 "D51" V 7296 3762 50  0000 R CNN
+F 1 "BAV99" V 7205 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 3950 50  0001 C CNN
+	1    7250 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D51
+U 2 1 5DA5A622
+P 7250 4150
+F 0 "D51" V 7296 4062 50  0000 R CNN
+F 1 "BAV99" V 7205 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 4250 50  0001 C CNN
+	2    7250 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H51
+U 1 1 5DA5A628
+P 7700 4100
+F 0 "H51" H 7600 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 4100 50  0001 C CNN
+F 3 "~" H 7700 4100 50  0001 C CNN
+	1    7700 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 4000 7250 4000
+Connection ~ 7250 4000
+Wire Wire Line
+	7250 4300 7600 4300
+$Comp
+L Diode:BAV99 D52
+U 1 1 5DA5A631
+P 7250 4550
+F 0 "D52" V 7296 4462 50  0000 R CNN
+F 1 "BAV99" V 7205 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 4650 50  0001 C CNN
+	1    7250 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D52
+U 2 1 5DA5A637
+P 7250 4850
+F 0 "D52" V 7296 4762 50  0000 R CNN
+F 1 "BAV99" V 7205 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 4950 50  0001 C CNN
+	2    7250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H52
+U 1 1 5DA5A63D
+P 7700 4800
+F 0 "H52" H 7600 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 4800 50  0001 C CNN
+F 3 "~" H 7700 4800 50  0001 C CNN
+	1    7700 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 4700 7250 4700
+Connection ~ 7250 4700
+Wire Wire Line
+	7250 5000 7600 5000
+$Comp
+L Diode:BAV99 D53
+U 1 1 5DA5A646
+P 7250 5250
+F 0 "D53" V 7296 5162 50  0000 R CNN
+F 1 "BAV99" V 7205 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 5350 50  0001 C CNN
+	1    7250 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D53
+U 2 1 5DA5A64C
+P 7250 5550
+F 0 "D53" V 7296 5462 50  0000 R CNN
+F 1 "BAV99" V 7205 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 5650 50  0001 C CNN
+	2    7250 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H53
+U 1 1 5DA5A652
+P 7700 5500
+F 0 "H53" H 7600 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 5500 50  0001 C CNN
+F 3 "~" H 7700 5500 50  0001 C CNN
+	1    7700 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 5400 7250 5400
+Connection ~ 7250 5400
+Wire Wire Line
+	7250 5700 7600 5700
+$Comp
+L Diode:BAV99 D54
+U 1 1 5DA5A65B
+P 7250 5950
+F 0 "D54" V 7296 5862 50  0000 R CNN
+F 1 "BAV99" V 7205 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 6050 50  0001 C CNN
+	1    7250 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D54
+U 2 1 5DA5A661
+P 7250 6250
+F 0 "D54" V 7296 6162 50  0000 R CNN
+F 1 "BAV99" V 7205 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 6350 50  0001 C CNN
+	2    7250 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H54
+U 1 1 5DA5A667
+P 7700 6200
+F 0 "H54" H 7600 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 6200 50  0001 C CNN
+F 3 "~" H 7700 6200 50  0001 C CNN
+	1    7700 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 6100 7250 6100
+Connection ~ 7250 6100
+Wire Wire Line
+	7250 6400 7600 6400
+$Comp
+L Diode:BAV99 D55
+U 1 1 5DA5A670
+P 7250 6650
+F 0 "D55" V 7296 6562 50  0000 R CNN
+F 1 "BAV99" V 7205 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 6750 50  0001 C CNN
+	1    7250 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D55
+U 2 1 5DA5A676
+P 7250 6950
+F 0 "D55" V 7296 6862 50  0000 R CNN
+F 1 "BAV99" V 7205 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 7050 50  0001 C CNN
+	2    7250 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H55
+U 1 1 5DA5A67C
+P 7700 6900
+F 0 "H55" H 7600 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 6900 50  0001 C CNN
+F 3 "~" H 7700 6900 50  0001 C CNN
+	1    7700 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 6800 7250 6800
+Connection ~ 7250 6800
+Wire Wire Line
+	7250 7100 7600 7100
+$Comp
+L Diode:BAV99 D56
+U 1 1 5DA5A685
+P 7250 7350
+F 0 "D56" V 7296 7262 50  0000 R CNN
+F 1 "BAV99" V 7205 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 7450 50  0001 C CNN
+	1    7250 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D56
+U 2 1 5DA5A68B
+P 7250 7650
+F 0 "D56" V 7296 7562 50  0000 R CNN
+F 1 "BAV99" V 7205 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7250 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 7250 7750 50  0001 C CNN
+	2    7250 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H56
+U 1 1 5DA5A691
+P 7700 7600
+F 0 "H56" H 7600 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 7600 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 7700 7600 50  0001 C CNN
+F 3 "~" H 7700 7600 50  0001 C CNN
+	1    7700 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 7500 7250 7500
+Connection ~ 7250 7500
+Wire Wire Line
+	7250 7800 7600 7800
+$Comp
+L Diode:BAV99 D57
+U 1 1 5DA5A69A
+P 8050 2450
+F 0 "D57" V 8096 2362 50  0000 R CNN
+F 1 "BAV99" V 8005 2362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 2550 50  0001 C CNN
+	1    8050 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D57
+U 2 1 5DA5A6A0
+P 8050 2750
+F 0 "D57" V 8096 2662 50  0000 R CNN
+F 1 "BAV99" V 8005 2662 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 2600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 2850 50  0001 C CNN
+	2    8050 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H57
+U 1 1 5DA5A6A6
+P 8500 2700
+F 0 "H57" H 8400 2657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 2748 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 2700 50  0001 C CNN
+F 3 "~" H 8500 2700 50  0001 C CNN
+	1    8500 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 2600 8050 2600
+Connection ~ 8050 2600
+Wire Wire Line
+	8050 2900 8400 2900
+$Comp
+L Diode:BAV99 D58
+U 1 1 5DA5A6AF
+P 8050 3150
+F 0 "D58" V 8096 3062 50  0000 R CNN
+F 1 "BAV99" V 8005 3062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 3000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 3250 50  0001 C CNN
+	1    8050 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D58
+U 2 1 5DA5A6B5
+P 8050 3450
+F 0 "D58" V 8096 3362 50  0000 R CNN
+F 1 "BAV99" V 8005 3362 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 3300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 3550 50  0001 C CNN
+	2    8050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H58
+U 1 1 5DA5A6BB
+P 8500 3400
+F 0 "H58" H 8400 3357 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 3448 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 3400 50  0001 C CNN
+F 3 "~" H 8500 3400 50  0001 C CNN
+	1    8500 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 3300 8050 3300
+Connection ~ 8050 3300
+Wire Wire Line
+	8050 3600 8400 3600
+$Comp
+L Diode:BAV99 D59
+U 1 1 5DA5A6C4
+P 8050 3850
+F 0 "D59" V 8096 3762 50  0000 R CNN
+F 1 "BAV99" V 8005 3762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 3700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 3950 50  0001 C CNN
+	1    8050 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D59
+U 2 1 5DA5A6CA
+P 8050 4150
+F 0 "D59" V 8096 4062 50  0000 R CNN
+F 1 "BAV99" V 8005 4062 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 4250 50  0001 C CNN
+	2    8050 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H59
+U 1 1 5DA5A6D0
+P 8500 4100
+F 0 "H59" H 8400 4057 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 4148 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 4100 50  0001 C CNN
+F 3 "~" H 8500 4100 50  0001 C CNN
+	1    8500 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 4000 8050 4000
+Connection ~ 8050 4000
+Wire Wire Line
+	8050 4300 8400 4300
+$Comp
+L Diode:BAV99 D60
+U 1 1 5DA5A6D9
+P 8050 4550
+F 0 "D60" V 8096 4462 50  0000 R CNN
+F 1 "BAV99" V 8005 4462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 4400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 4650 50  0001 C CNN
+	1    8050 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D60
+U 2 1 5DA5A6DF
+P 8050 4850
+F 0 "D60" V 8096 4762 50  0000 R CNN
+F 1 "BAV99" V 8005 4762 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 4700 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 4950 50  0001 C CNN
+	2    8050 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H60
+U 1 1 5DA5A6E5
+P 8500 4800
+F 0 "H60" H 8400 4757 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 4848 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 4800 50  0001 C CNN
+F 3 "~" H 8500 4800 50  0001 C CNN
+	1    8500 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 4700 8050 4700
+Connection ~ 8050 4700
+Wire Wire Line
+	8050 5000 8400 5000
+$Comp
+L Diode:BAV99 D61
+U 1 1 5DA5A6EE
+P 8050 5250
+F 0 "D61" V 8096 5162 50  0000 R CNN
+F 1 "BAV99" V 8005 5162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 5100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 5350 50  0001 C CNN
+	1    8050 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D61
+U 2 1 5DA5A6F4
+P 8050 5550
+F 0 "D61" V 8096 5462 50  0000 R CNN
+F 1 "BAV99" V 8005 5462 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 5400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 5650 50  0001 C CNN
+	2    8050 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H61
+U 1 1 5DA5A6FA
+P 8500 5500
+F 0 "H61" H 8400 5457 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 5548 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 5500 50  0001 C CNN
+F 3 "~" H 8500 5500 50  0001 C CNN
+	1    8500 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 5400 8050 5400
+Connection ~ 8050 5400
+Wire Wire Line
+	8050 5700 8400 5700
+$Comp
+L Diode:BAV99 D62
+U 1 1 5DA5A703
+P 8050 5950
+F 0 "D62" V 8096 5862 50  0000 R CNN
+F 1 "BAV99" V 8005 5862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 5800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 6050 50  0001 C CNN
+	1    8050 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D62
+U 2 1 5DA5A709
+P 8050 6250
+F 0 "D62" V 8096 6162 50  0000 R CNN
+F 1 "BAV99" V 8005 6162 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 6100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 6350 50  0001 C CNN
+	2    8050 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H62
+U 1 1 5DA5A70F
+P 8500 6200
+F 0 "H62" H 8400 6157 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 6248 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 6200 50  0001 C CNN
+F 3 "~" H 8500 6200 50  0001 C CNN
+	1    8500 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 6100 8050 6100
+Connection ~ 8050 6100
+Wire Wire Line
+	8050 6400 8400 6400
+$Comp
+L Diode:BAV99 D63
+U 1 1 5DA5A718
+P 8050 6650
+F 0 "D63" V 8096 6562 50  0000 R CNN
+F 1 "BAV99" V 8005 6562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 6500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 6750 50  0001 C CNN
+	1    8050 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D63
+U 2 1 5DA5A71E
+P 8050 6950
+F 0 "D63" V 8096 6862 50  0000 R CNN
+F 1 "BAV99" V 8005 6862 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 6800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 7050 50  0001 C CNN
+	2    8050 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H63
+U 1 1 5DA5A724
+P 8500 6900
+F 0 "H63" H 8400 6857 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 6948 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 6900 50  0001 C CNN
+F 3 "~" H 8500 6900 50  0001 C CNN
+	1    8500 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 6800 8050 6800
+Connection ~ 8050 6800
+Wire Wire Line
+	8050 7100 8400 7100
+$Comp
+L Diode:BAV99 D64
+U 1 1 5DA5A72D
+P 8050 7350
+F 0 "D64" V 8096 7262 50  0000 R CNN
+F 1 "BAV99" V 8005 7262 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 7200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 7450 50  0001 C CNN
+	1    8050 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:BAV99 D64
+U 2 1 5DA5A733
+P 8050 7650
+F 0 "D64" V 8096 7562 50  0000 R CNN
+F 1 "BAV99" V 8005 7562 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8050 7500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 8050 7750 50  0001 C CNN
+	2    8050 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H64
+U 1 1 5DA5A739
+P 8500 7600
+F 0 "H64" H 8400 7557 50  0000 R CNN
+F 1 "MountingHole_Pad" H 8400 7648 50  0000 R CNN
+F 2 "myfootprint:TCH_PAD" H 8500 7600 50  0001 C CNN
+F 3 "~" H 8500 7600 50  0001 C CNN
+	1    8500 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 7500 8050 7500
+Connection ~ 8050 7500
+Wire Wire Line
+	8050 7800 8400 7800
+Wire Wire Line
+	2600 2300 3400 2300
+Connection ~ 3400 2300
+Wire Wire Line
+	3400 2300 4150 2300
+Connection ~ 4150 2300
+Wire Wire Line
+	4150 2300 4950 2300
+Connection ~ 4950 2300
+Wire Wire Line
+	4950 2300 5700 2300
+Connection ~ 5700 2300
+Wire Wire Line
+	5700 2300 6500 2300
+Connection ~ 6500 2300
+Wire Wire Line
+	6500 2300 7250 2300
+Connection ~ 7250 2300
+Wire Wire Line
+	7250 2300 8050 2300
+Connection ~ 8050 2300
+Wire Wire Line
+	8050 2300 9500 2300
+Wire Wire Line
+	9500 3000 8050 3000
+Connection ~ 3400 3000
+Wire Wire Line
+	3400 3000 2600 3000
+Connection ~ 4150 3000
+Wire Wire Line
+	4150 3000 3400 3000
+Connection ~ 4950 3000
+Wire Wire Line
+	4950 3000 4150 3000
+Connection ~ 5700 3000
+Wire Wire Line
+	5700 3000 4950 3000
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 5700 3000
+Connection ~ 7250 3000
+Wire Wire Line
+	7250 3000 6500 3000
+Connection ~ 8050 3000
+Wire Wire Line
+	8050 3000 7250 3000
+Wire Wire Line
+	9500 3700 8050 3700
+Connection ~ 3400 3700
+Wire Wire Line
+	3400 3700 2600 3700
+Connection ~ 4150 3700
+Wire Wire Line
+	4150 3700 3400 3700
+Connection ~ 4950 3700
+Wire Wire Line
+	4950 3700 4150 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 3700 4950 3700
+Connection ~ 6500 3700
+Wire Wire Line
+	6500 3700 5700 3700
+Connection ~ 7250 3700
+Wire Wire Line
+	7250 3700 6500 3700
+Connection ~ 8050 3700
+Wire Wire Line
+	8050 3700 7250 3700
+Wire Wire Line
+	9500 4400 8050 4400
+Connection ~ 3400 4400
+Wire Wire Line
+	3400 4400 2600 4400
+Connection ~ 4150 4400
+Wire Wire Line
+	4150 4400 3400 4400
+Connection ~ 4950 4400
+Wire Wire Line
+	4950 4400 4150 4400
+Connection ~ 5700 4400
+Wire Wire Line
+	5700 4400 4950 4400
+Connection ~ 6500 4400
+Wire Wire Line
+	6500 4400 5700 4400
+Connection ~ 7250 4400
+Wire Wire Line
+	7250 4400 6500 4400
+Connection ~ 8050 4400
+Wire Wire Line
+	8050 4400 7250 4400
+Wire Wire Line
+	9500 5100 8050 5100
+Connection ~ 3400 5100
+Wire Wire Line
+	3400 5100 2600 5100
+Connection ~ 4150 5100
+Wire Wire Line
+	4150 5100 3400 5100
+Connection ~ 4950 5100
+Wire Wire Line
+	4950 5100 4150 5100
+Connection ~ 5700 5100
+Wire Wire Line
+	5700 5100 4950 5100
+Connection ~ 6500 5100
+Wire Wire Line
+	6500 5100 5700 5100
+Connection ~ 7250 5100
+Wire Wire Line
+	7250 5100 6500 5100
+Connection ~ 8050 5100
+Wire Wire Line
+	8050 5100 7250 5100
+Wire Wire Line
+	9500 5800 8050 5800
+Connection ~ 3400 5800
+Wire Wire Line
+	3400 5800 2600 5800
+Connection ~ 4150 5800
+Wire Wire Line
+	4150 5800 3400 5800
+Connection ~ 4950 5800
+Wire Wire Line
+	4950 5800 4150 5800
+Connection ~ 5700 5800
+Wire Wire Line
+	5700 5800 4950 5800
+Connection ~ 6500 5800
+Wire Wire Line
+	6500 5800 5700 5800
+Connection ~ 7250 5800
+Wire Wire Line
+	7250 5800 6500 5800
+Connection ~ 8050 5800
+Wire Wire Line
+	8050 5800 7250 5800
+Wire Wire Line
+	9500 6500 8050 6500
+Connection ~ 3400 6500
+Wire Wire Line
+	3400 6500 2600 6500
+Connection ~ 4150 6500
+Wire Wire Line
+	4150 6500 3400 6500
+Connection ~ 4950 6500
+Wire Wire Line
+	4950 6500 4150 6500
+Connection ~ 5700 6500
+Wire Wire Line
+	5700 6500 4950 6500
+Connection ~ 6500 6500
+Wire Wire Line
+	6500 6500 5700 6500
+Connection ~ 7250 6500
+Wire Wire Line
+	7250 6500 6500 6500
+Connection ~ 8050 6500
+Wire Wire Line
+	8050 6500 7250 6500
+Wire Wire Line
+	9500 7200 8050 7200
+Connection ~ 3400 7200
+Wire Wire Line
+	3400 7200 2600 7200
+Connection ~ 4150 7200
+Wire Wire Line
+	4150 7200 3400 7200
+Connection ~ 4950 7200
+Wire Wire Line
+	4950 7200 4150 7200
+Connection ~ 5700 7200
+Wire Wire Line
+	5700 7200 4950 7200
+Connection ~ 6500 7200
+Wire Wire Line
+	6500 7200 5700 7200
+Connection ~ 7250 7200
+Wire Wire Line
+	7250 7200 6500 7200
+Connection ~ 8050 7200
+Wire Wire Line
+	8050 7200 7250 7200
+Wire Wire Line
+	2950 2900 2950 3600
+Connection ~ 2950 3600
+Wire Wire Line
+	2950 3600 2950 4300
+Connection ~ 2950 4300
+Wire Wire Line
+	2950 4300 2950 5000
+Connection ~ 2950 5000
+Wire Wire Line
+	2950 5000 2950 5700
+Connection ~ 2950 5700
+Wire Wire Line
+	2950 5700 2950 6400
+Connection ~ 2950 6400
+Wire Wire Line
+	2950 6400 2950 7100
+Connection ~ 2950 7100
+Wire Wire Line
+	2950 7100 2950 7800
+Connection ~ 2950 7800
+$Comp
+L Device:R_Small R1
+U 1 1 5DBBAEA4
+P 2950 8200
+F 0 "R1" H 3009 8246 50  0000 L CNN
+F 1 "R_Small" H 3009 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2950 8200 50  0001 C CNN
+F 3 "~" H 2950 8200 50  0001 C CNN
+	1    2950 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5DBC523A
+P 3750 8200
+F 0 "R2" H 3809 8246 50  0000 L CNN
+F 1 "R_Small" H 3809 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 8200 50  0001 C CNN
+F 3 "~" H 3750 8200 50  0001 C CNN
+	1    3750 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5DBF153F
+P 4500 8200
+F 0 "R3" H 4559 8246 50  0000 L CNN
+F 1 "R_Small" H 4559 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 8200 50  0001 C CNN
+F 3 "~" H 4500 8200 50  0001 C CNN
+	1    4500 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5DBF1545
+P 5300 8200
+F 0 "R4" H 5359 8246 50  0000 L CNN
+F 1 "R_Small" H 5359 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 8200 50  0001 C CNN
+F 3 "~" H 5300 8200 50  0001 C CNN
+	1    5300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5DC216BE
+P 6050 8200
+F 0 "R5" H 6109 8246 50  0000 L CNN
+F 1 "R_Small" H 6109 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 8200 50  0001 C CNN
+F 3 "~" H 6050 8200 50  0001 C CNN
+	1    6050 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5DC216C4
+P 6850 8200
+F 0 "R6" H 6909 8246 50  0000 L CNN
+F 1 "R_Small" H 6909 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6850 8200 50  0001 C CNN
+F 3 "~" H 6850 8200 50  0001 C CNN
+	1    6850 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5DC216CA
+P 7600 8200
+F 0 "R7" H 7659 8246 50  0000 L CNN
+F 1 "R_Small" H 7659 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 8200 50  0001 C CNN
+F 3 "~" H 7600 8200 50  0001 C CNN
+	1    7600 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5DC216D0
+P 8400 8200
+F 0 "R8" H 8459 8246 50  0000 L CNN
+F 1 "R_Small" H 8459 8155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 8200 50  0001 C CNN
+F 3 "~" H 8400 8200 50  0001 C CNN
+	1    8400 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 7800 2950 8100
+Wire Wire Line
+	3750 8100 3750 7800
+Connection ~ 3750 3600
+Wire Wire Line
+	3750 3600 3750 2900
+Connection ~ 3750 4300
+Wire Wire Line
+	3750 4300 3750 3600
+Connection ~ 3750 5000
+Wire Wire Line
+	3750 5000 3750 4300
+Connection ~ 3750 5700
+Wire Wire Line
+	3750 5700 3750 5000
+Connection ~ 3750 6400
+Wire Wire Line
+	3750 6400 3750 5700
+Connection ~ 3750 7100
+Wire Wire Line
+	3750 7100 3750 6400
+Connection ~ 3750 7800
+Wire Wire Line
+	3750 7800 3750 7100
+Wire Wire Line
+	4500 8100 4500 7800
+Connection ~ 4500 3600
+Wire Wire Line
+	4500 3600 4500 2900
+Connection ~ 4500 4300
+Wire Wire Line
+	4500 4300 4500 3600
+Connection ~ 4500 5000
+Wire Wire Line
+	4500 5000 4500 4300
+Connection ~ 4500 5700
+Wire Wire Line
+	4500 5700 4500 5000
+Connection ~ 4500 6400
+Wire Wire Line
+	4500 6400 4500 5700
+Connection ~ 4500 7100
+Wire Wire Line
+	4500 7100 4500 6400
+Connection ~ 4500 7800
+Wire Wire Line
+	4500 7800 4500 7100
+Wire Wire Line
+	5300 8100 5300 7800
+Connection ~ 5300 3600
+Wire Wire Line
+	5300 3600 5300 2900
+Connection ~ 5300 4300
+Wire Wire Line
+	5300 4300 5300 3600
+Connection ~ 5300 5000
+Wire Wire Line
+	5300 5000 5300 4300
+Connection ~ 5300 5700
+Wire Wire Line
+	5300 5700 5300 5000
+Connection ~ 5300 6400
+Wire Wire Line
+	5300 6400 5300 5700
+Connection ~ 5300 7100
+Wire Wire Line
+	5300 7100 5300 6400
+Connection ~ 5300 7800
+Wire Wire Line
+	5300 7800 5300 7100
+Wire Wire Line
+	6050 8100 6050 7800
+Connection ~ 6050 3600
+Wire Wire Line
+	6050 3600 6050 2900
+Connection ~ 6050 4300
+Wire Wire Line
+	6050 4300 6050 3600
+Connection ~ 6050 5000
+Wire Wire Line
+	6050 5000 6050 4300
+Connection ~ 6050 5700
+Wire Wire Line
+	6050 5700 6050 5000
+Connection ~ 6050 6400
+Wire Wire Line
+	6050 6400 6050 5700
+Connection ~ 6050 7100
+Wire Wire Line
+	6050 7100 6050 6400
+Connection ~ 6050 7800
+Wire Wire Line
+	6050 7800 6050 7100
+Wire Wire Line
+	6850 8100 6850 7800
+Connection ~ 6850 3600
+Wire Wire Line
+	6850 3600 6850 2900
+Connection ~ 6850 4300
+Wire Wire Line
+	6850 4300 6850 3600
+Connection ~ 6850 5000
+Wire Wire Line
+	6850 5000 6850 4300
+Connection ~ 6850 5700
+Wire Wire Line
+	6850 5700 6850 5000
+Connection ~ 6850 6400
+Wire Wire Line
+	6850 6400 6850 5700
+Connection ~ 6850 7100
+Wire Wire Line
+	6850 7100 6850 6400
+Connection ~ 6850 7800
+Wire Wire Line
+	6850 7800 6850 7100
+Wire Wire Line
+	7600 8100 7600 7800
+Connection ~ 7600 3600
+Wire Wire Line
+	7600 3600 7600 2900
+Connection ~ 7600 4300
+Wire Wire Line
+	7600 4300 7600 3600
+Connection ~ 7600 5000
+Wire Wire Line
+	7600 5000 7600 4300
+Connection ~ 7600 5700
+Wire Wire Line
+	7600 5700 7600 5000
+Connection ~ 7600 6400
+Wire Wire Line
+	7600 6400 7600 5700
+Connection ~ 7600 7100
+Wire Wire Line
+	7600 7100 7600 6400
+Connection ~ 7600 7800
+Wire Wire Line
+	7600 7800 7600 7100
+Wire Wire Line
+	8400 8100 8400 7800
+Connection ~ 8400 3600
+Wire Wire Line
+	8400 3600 8400 2900
+Connection ~ 8400 4300
+Wire Wire Line
+	8400 4300 8400 3600
+Connection ~ 8400 5000
+Wire Wire Line
+	8400 5000 8400 4300
+Connection ~ 8400 5700
+Wire Wire Line
+	8400 5700 8400 5000
+Connection ~ 8400 6400
+Wire Wire Line
+	8400 6400 8400 5700
+Connection ~ 8400 7100
+Wire Wire Line
+	8400 7100 8400 6400
+Connection ~ 8400 7800
+Wire Wire Line
+	8400 7800 8400 7100
+Wire Wire Line
+	2950 8300 2950 8550
+Wire Wire Line
+	3750 8300 3750 8550
+Wire Wire Line
+	4500 8300 4500 8550
+Wire Wire Line
+	5300 8300 5300 8550
+Wire Wire Line
+	6050 8300 6050 8550
+Wire Wire Line
+	6850 8300 6850 8550
+Wire Wire Line
+	7600 8300 7600 8550
+Wire Wire Line
+	8400 8300 8400 8550
+Text Label 2950 8550 0    50   ~ 0
+X0
+Text Label 3750 8550 0    50   ~ 0
+X1
+Text Label 4500 8550 0    50   ~ 0
+X2
+Text Label 5300 8550 0    50   ~ 0
+X3
+Text Label 6050 8550 0    50   ~ 0
+X4
+Text Label 6850 8550 0    50   ~ 0
+X5
+Text Label 7600 8550 0    50   ~ 0
+X6
+Text Label 8400 8550 0    50   ~ 0
+X7
+Text Label 9500 2300 0    50   ~ 0
+Y0
+Text Label 9500 3000 0    50   ~ 0
+Y1
+Text Label 9500 3700 0    50   ~ 0
+Y2
+Text Label 9500 4400 0    50   ~ 0
+Y3
+Text Label 9500 5100 0    50   ~ 0
+Y4
+Text Label 9500 5800 0    50   ~ 0
+Y5
+Text Label 9500 6500 0    50   ~ 0
+Y6
+Text Label 9500 7200 0    50   ~ 0
+Y7
+$EndSCHEMATC

@@ -1,0 +1,11 @@
+.bin
+.elf
+.hex
+.d
+.lst
+.o
+
+
+build
+__pycache__
+.vscode
